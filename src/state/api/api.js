@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_URL = "http://localhost:4000";
+export const API_URL = "https://loan-app-server-px1u.onrender.com";
 // export const API_URL = "http://client1.jewelercart.com:4000";
 
 const api = axios.create({
