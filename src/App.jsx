@@ -1,5 +1,5 @@
 
-import PageTabs from "./Tabs";
+import Home from "./pages/home";
 import { createContext } from "react";
 import { useState } from "react";
 
@@ -25,8 +25,8 @@ function App() {
   } else if (page === "reset") {
     elementToDisplay = <Reset />;
   } else {
-    elementToDisplay = <PageTabs />;
-    // elementToDisplay = <PageTabs3 />;
+    elementToDisplay = <Home />;
+    // elementToDisplay = <Home3 />;
     console.log("first");
   }
 
