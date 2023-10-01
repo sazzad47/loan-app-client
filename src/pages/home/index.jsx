@@ -19,38 +19,80 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="w-full h-[200px] relative mt-3 sm:mt-5">
+      <div className="w-full h-[100px] sm:h-[140px] md:h-[200px] relative mt-3 sm:mt-5">
         <Svgs />
-        <div className="w-full min-h-full flex justify-between items-center z-10 px-[4rem]">
-          {/* <img className="line" alt="Line" src="https://c.animaapp.com/W3HdjKgK/img/line-1.svg" /> */}
+        <div className="w-full h-full z-10 pl-[2rem] pr-[7rem]">
+          <div className="w-full h-full relative flex justify-between items-center">
 
-          <div className="h-[55px] w-[55px] rounded-full bg-white flex items-center justify-center">
-            <div className="w-[55%] h-[55%] rounded-full bg-[#137fff] flex justify-center items-center">
-              <DoneIcon className="text-white" />
+            <div className="absolute w-full h-auto grid grid-cols-6">
+
+              <div className="stepper-item flex flex-col gap-4 items-center">
+                <div className="z-[5] h-[50px] w-[50px] rounded-full bg-white flex items-center justify-center">
+                  <div className="w-[50%] h-[50%] rounded-full bg-[#137fff] flex justify-center items-center">
+                    <DoneIcon fontSize="10em" className="text-white" />
+                  </div>
+                </div>
+                <div className="text-white font-[roboto] text-[0.8em] font-semibold tracking-normal leading-normal text-center">
+                  Enter sign up details
+                </div>
+              </div>
+
+              <div className="stepper-item flex flex-col gap-4 items-center">
+                <div className="z-[5] h-[50px] w-[50px] rounded-full bg-white flex items-center justify-center">
+                  <div className="w-[50%] h-[50%] rounded-full bg-[#137fff] flex justify-center items-center">
+                    <DoneIcon fontSize="10em" className="text-white" />
+                  </div>
+                </div>
+                <div className="text-white font-[roboto] text-[0.8em] font-semibold tracking-normal leading-normal text-center">
+                  Pull report
+                </div>
+              </div>
+
+              <div className="stepper-item flex flex-col gap-4 items-center">
+                <div className="z-[5] h-[50px] w-[50px] rounded-full bg-white flex items-center justify-center">
+                  <div className="w-[50%] h-[50%] rounded-full bg-[#137fff] flex justify-center items-center">
+                    <DoneIcon fontSize="10em" className="text-white" />
+                  </div>
+                </div>
+                <div className="text-white font-[roboto] text-[0.8em] font-semibold tracking-normal leading-normal text-center">
+                  Schedule a meeting
+                </div>
+              </div>
+
+              <div className="stepper-item flex flex-col gap-4 items-center">
+                <div className="z-[5] h-[50px] w-[50px] rounded-full bg-white flex items-center justify-center">
+                  <div className="w-[50%] h-[50%] rounded-full bg-[#137fff] flex justify-center items-center">
+                    <DoneIcon fontSize="10em" className="text-white" />
+                  </div>
+                </div>
+                <div className="text-white font-[roboto] text-[0.8em] font-semibold tracking-normal leading-normal text-center">
+                  Upload verification IDs
+                </div>
+              </div>
+
+              <div className="stepper-item flex flex-col gap-4 items-center">
+                <div className="z-[5] h-[50px] w-[50px] rounded-full bg-white flex items-center justify-center">
+                  <div className="w-[50%] h-[50%] rounded-full bg-[#137fff] flex justify-center items-center">
+                    <DoneIcon fontSize="10em" className="text-white" />
+                  </div>
+                </div>
+                <div className="text-white font-[roboto] text-[0.8em] font-semibold tracking-normal leading-normal text-center">
+                  Select Packages
+                </div>
+              </div>
+
+              <div className="stepper-item flex flex-col gap-4 items-center">
+                <div className="z-[5] h-[50px] w-[50px] rounded-full bg-white flex items-center justify-center">
+                  <div className="w-[50%] h-[50%] rounded-full bg-[#F1F1F1] flex justify-center items-center">
+                    <DoneIcon fontSize="10em" className="text-[#D9D9D9]" />
+                  </div>
+                </div>
+                <div className="text-white font-[roboto] text-[0.8em] font-[600] tracking-normal leading-normal text-center">
+                  Positive account & Freeze account
+                </div>
+              </div>
             </div>
           </div>
-          {/* <div className="text-wrapper">Enter sign up details</div> */}
-
-          <div className="h-[55px] w-[55px] rounded-full bg-white flex items-center justify-center">
-            <div className="w-[55%] h-[55%] rounded-full bg-[#F1F1F1] flex justify-center items-center">
-              <DoneIcon className="text-[#D9D9D9]" />
-            </div>
-          </div>
-          {/* <div className="text-wrapper-2">Schedule a meeting</div> */}
-
-          <div className="h-[55px] w-[55px] rounded-full bg-white flex items-center justify-center">
-            <div className="w-[55%] h-[55%] rounded-full bg-[#F1F1F1] flex justify-center items-center">
-              <DoneIcon className="text-[#D9D9D9]" />
-            </div>
-          </div>
-          {/* <div className="text-wrapper-3">Upload verification IDs</div> */}
-
-          <div className="h-[55px] w-[55px] rounded-full bg-white flex items-center justify-center">
-            <div className="w-[55%] h-[55%] rounded-full bg-[#F1F1F1] flex justify-center items-center">
-              <DoneIcon className="text-[#D9D9D9]" />
-            </div>
-          </div>
-          {/* <div className="text-wrapper-4">Positive account OR Freeze</div> */}
         </div>
       </div>
     </div>
