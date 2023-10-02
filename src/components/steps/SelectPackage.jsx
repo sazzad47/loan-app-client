@@ -123,7 +123,7 @@ export default function SelectPackage() {
 
             </div>
            
-           <div className="plan-3 w-full flex flex-col justify-between">
+           <div className="plan-3 w-full mr-[2rem] flex flex-col justify-between">
 
             <div style={{borderRight: "0.73px solid #929292"}} className="package-3 w-full">
             <div className="p-2 pl-3 pt-4 min-h-[20rem]">
