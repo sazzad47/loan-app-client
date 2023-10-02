@@ -7,6 +7,7 @@ import SwipeableViews from "react-swipeable-views";
 import SignUp from "../../components/steps/SignUp";
 import PullReport from "../../components/steps/PullReport";
 import ScheduleMeeting from "../../components/steps/ScheduleMeeting";
+import SelectPackage from "../../components/steps/SelectPackage";
 
 const Home = () => {
   const steps = [
@@ -33,7 +34,7 @@ const Home = () => {
         "TGI Scale Me invites you to embark on your credit scaling journey today",
       label: "Select Package",
       component:
-        "Work in progress",
+        <SelectPackage/>,
     },
     {
       heading: "Upload your Verification Documents",
