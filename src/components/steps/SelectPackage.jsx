@@ -29,7 +29,7 @@ export default function SelectPackage() {
       </div>
       </div>
       <Grid  sx={{marginTop: "5rem"}}>
-          <div className="w-full overflow-hidden flex gap-[3rem] justify-between">
+          <div className="w-full flex gap-[3rem] justify-between">
 
             <div className="plan-1 w-full flex flex-col justify-between">
 
