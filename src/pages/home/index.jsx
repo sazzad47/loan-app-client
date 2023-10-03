@@ -8,6 +8,7 @@ import SignUp from "../../components/steps/SignUp";
 import PullReport from "../../components/steps/PullReport";
 import ScheduleMeeting from "../../components/steps/ScheduleMeeting";
 import SelectPackage from "../../components/steps/SelectPackage";
+import UploadDocuments from "../../components/steps/UploadDocuments";
 
 const Home = () => {
   const steps = [
@@ -40,11 +41,11 @@ const Home = () => {
       heading: "Upload your Verification Documents",
       label: "Upload verification IDs",
       component:
-      "Work in progress",
+      <UploadDocuments/>,
     },
     {
       heading: "Freeze or make your positive account !",
-      label: "Positive account & Freeze accoun",
+      label: "Positive account & Freeze account",
       component:
       "Work in progress",
     },
