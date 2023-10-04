@@ -9,6 +9,7 @@ import PullReport from "../../components/steps/PullReport";
 import ScheduleMeeting from "../../components/steps/ScheduleMeeting";
 import SelectPackage from "../../components/steps/SelectPackage";
 import UploadDocuments from "../../components/steps/UploadDocuments";
+import PositiveOrFreeze from "../../components/steps/PositiveOrFreeze";
 
 const Home = () => {
   const steps = [
@@ -47,7 +48,7 @@ const Home = () => {
       heading: "Freeze or make your positive account !",
       label: "Positive account & Freeze account",
       component:
-      "Work in progress",
+      <PositiveOrFreeze/>,
     },
   ];
   const theme = useTheme();
@@ -67,7 +68,7 @@ const Home = () => {
     <div className="min-h-screen w-full p-[2rem] sm:p-[3rem] md:p-[5rem]">
       
       <div className="p-[1rem] sm:p-[2rem] items-center w-full flex flex-col gap-[5px] justify-center bg-[#f8f8f8] rounded-[18px]">
-        <p className="font-[acme] text-[#333] text-[25px] sm:text-[30px] md:text-[55px] font-[400] tracking-normal leading-normal text-center">
+        <p className="font-[Spartan] text-[#333] text-[25px] sm:text-[30px] md:text-[55px] font-[400] tracking-normal leading-normal text-center">
           {steps[activeStep].heading}
         </p>
         <p className="text-transparent font-[roboto] text-[20px] sm:text-[25px] font-[400] tracking-normal leading-normal relative text-center">
