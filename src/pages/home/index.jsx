@@ -16,39 +16,33 @@ const Home = () => {
     {
       heading: "Create your TGIScaleme account now !",
       label: "Enter sign up details",
-      component:
-        <SignUp/>,
+      component: <SignUp />,
     },
     {
       heading: "Get credit report",
       label: "Pull report",
-      component:
-        <PullReport/>,
+      component: <PullReport />,
     },
     {
       heading: "Get Started by Scheduling your Free Credit Consultation.",
       label: "Schedule a meeting",
-      component:
-        <ScheduleMeeting/>
+      component: <ScheduleMeeting />,
     },
     {
       heading:
         "TGI Scale Me invites you to embark on your credit scaling journey today",
       label: "Select Package",
-      component:
-        <SelectPackage/>,
+      component: <SelectPackage />,
     },
     {
       heading: "Upload your Verification Documents",
       label: "Upload verification IDs",
-      component:
-      <UploadDocuments/>,
+      component: <UploadDocuments />,
     },
     {
       heading: "Freeze or make your positive account !",
       label: "Positive account & Freeze account",
-      component:
-      <PositiveOrFreeze/>,
+      component: <PositiveOrFreeze />,
     },
   ];
   const theme = useTheme();
@@ -63,10 +57,8 @@ const Home = () => {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
 
-
   return (
     <div className="min-h-screen w-full p-[2rem] sm:p-[3rem] md:p-[5rem]">
-      
       <div className="p-[1rem] sm:p-[2rem] items-center w-full flex flex-col gap-[5px] justify-center bg-[#f8f8f8] rounded-[18px]">
         <p className="font-[Spartan] text-[#333] text-[25px] sm:text-[30px] md:text-[55px] font-[400] tracking-normal leading-normal text-center">
           {steps[activeStep].heading}
@@ -128,9 +120,7 @@ const Home = () => {
         >
           {steps.map((step, index) => (
             <div key={step.label}>
-              {Math.abs(activeStep - index) <= 2 ? (
-                step.component
-              ) : null}
+              {Math.abs(activeStep - index) <= 2 ? step.component : null}
             </div>
           ))}
         </SwipeableViews>
@@ -146,16 +136,26 @@ const Home = () => {
             {" "}
             Previous{" "}
           </button>
-          <button
-            onClick={handleNext}
-            disabled={activeStep === maxSteps - 1}
-            className="rounded-[2.0625rem] text-[#FFF] font-[roboto] text-[1.25rem] bg-[#333] py-3 px-10"
-          >
-            Next
-          </button>
+          {activeStep === maxSteps - 1 ? (
+            <button
+              onClick={handleNext}
+              disabled={activeStep === maxSteps - 1}
+              style={{background: "linear-gradient(180deg, #085ABB 0%, #2684FF 100%)"}}
+              className="rounded-[2.0625rem] text-[#FFF] font-[roboto] text-[1.25rem] py-3 px-10"
+            >
+              Complete
+            </button>
+          ) : (
+            <button
+              onClick={handleNext}
+              disabled={activeStep === maxSteps - 1}
+              className="rounded-[2.0625rem] text-[#FFF] font-[roboto] text-[1.25rem] bg-[#333] py-3 px-10"
+            >
+              Next
+            </button>
+          )}
         </div>
       </div>
-
     </div>
   );
 };
