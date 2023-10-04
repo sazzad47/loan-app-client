@@ -6,15 +6,21 @@ import App from "./App";
 import Interceptor from "./state/api/Interceptor";
 import { persistor, store } from "./state/store";
 import "./index.css";
+import { BrowserRouter } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 const MainApp = () => {
   return (
-    <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
-        <Interceptor />
-        <App />
-      </PersistGate>
-    </Provider>
+    <BrowserRouter>
+      <ScrollToTop>
+        <Provider store={store}>
+          <PersistGate loading={null} persistor={persistor}>
+            <Interceptor />
+            <App />
+          </PersistGate>
+        </Provider>
+      </ScrollToTop>
+    </BrowserRouter>
   );
 };
 

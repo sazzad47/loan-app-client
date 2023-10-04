@@ -1,12 +1,41 @@
-import React from "react";
-
-const Svgs = () => {
+export const Bag = () => {
   return (
-    <div className="absolute w-full h-full z-[-1] flex">
-      <div className="middle-div w-full rounded-l-lg"></div>
-      <span className="arrow-right"></span>
-    </div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="235"
+      height="241"
+      viewBox="0 0 235 241"
+      fill="none"
+    >
+      <path
+        d="M72.2088 52.0832V42.9832C72.2088 22.8495 72.2088 6.58325 108.609 6.58325H126.809C163.209 6.58325 163.209 22.8495 163.209 42.9832V52.0832M72.2088 234.083H163.209C208.936 234.083 217.126 215.769 219.515 193.474L228.046 102.474C231.118 74.7195 223.155 52.0832 174.584 52.0832H60.8338C12.2626 52.0832 4.30009 74.7195 7.37134 102.474L15.9026 193.474C18.2913 215.769 26.4813 234.083 72.2088 234.083Z"
+        stroke="#1380FF"
+        stroke-width="12"
+        stroke-miterlimit="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
   );
 };
 
-export default Svgs;
+export const BagHandle = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="226"
+      height="67"
+      viewBox="0 0 226 67"
+      fill="none"
+    >
+      <path
+        d="M134.459 39.3108V27.7083C134.459 16.3333 134.459 16.3333 123.084 16.3333H100.334C88.9592 16.3333 88.9592 16.3333 88.9592 27.7083V39.4245M134.459 39.3108C134.459 51.7095 134.345 61.8332 111.709 61.8332C89.1867 61.8332 88.9592 51.8232 88.9592 39.4245M134.459 39.3108C165.902 35.3963 195.84 23.5776 221.478 4.95825M88.9592 39.4245C59.498 36.1257 30.6055 25.547 5.01172 8.02951"
+        stroke="#8ECAE6"
+        stroke-width="9"
+        stroke-miterlimit="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};

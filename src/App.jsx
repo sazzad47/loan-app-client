@@ -9,9 +9,11 @@ import DisputesPage from "./components/admin/DisputesPage";
 import AdminLogin from "./components/admin/AdminLogin";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PrivateRoute from "./PrivateRoute";
-import Recovered from "./components/modals/scoresignup/Recovered";
+// import Recovered from "./components/modals/scoresignup/Recovered";
 import OTPInput from "./components/modals/scoresignup/OTPInput";
 import Reset from "./components/modals/scoresignup/Reset";
+import PersonalAccount from "./pages/personalAccount";
+import ScrollToTop from "./components/ScrollToTop";
 
 export const RecoveryContext = createContext();
 
@@ -36,10 +38,11 @@ function App() {
       <RecoveryContext.Provider
         value={{ page, setPage, otp, setOTP, setEmaill, emaill }}
       >
-        <BrowserRouter>
+       
           <Routes>
             <Route path="/">
               <Route index element={elementToDisplay} />
+              <Route path="/personal-account" element={<PersonalAccount />} />
               <Route path="/admin" element={<PrivateRoute />}>
                 <Route path="/admin">
                   <Route index element={<Admin />} />
@@ -50,7 +53,6 @@ function App() {
               <Route path="admin/login" element={<AdminLogin />} />
             </Route>
           </Routes>
-        </BrowserRouter>
       </RecoveryContext.Provider>
     </>
   );
