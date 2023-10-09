@@ -1,0 +1,1 @@
+export { LinearTimeCalendarMinimalistic } from "./LinearTimeCalendarMinimalistic";

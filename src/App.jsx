@@ -7,13 +7,14 @@ import Admin from "./Admin";
 import UsersList from "./components/admin/UsersList";
 import DisputesPage from "./components/admin/DisputesPage";
 import AdminLogin from "./components/admin/AdminLogin";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import PrivateRoute from "./PrivateRoute";
 // import Recovered from "./components/modals/scoresignup/Recovered";
 import OTPInput from "./components/modals/scoresignup/OTPInput";
 import Reset from "./components/modals/scoresignup/Reset";
 import PersonalAccount from "./pages/personalAccount";
-import ScrollToTop from "./components/ScrollToTop";
+import PersonalDashboard from "./pages/personalDashboard";
+
 
 export const RecoveryContext = createContext();
 
@@ -43,6 +44,7 @@ function App() {
             <Route path="/">
               <Route index element={elementToDisplay} />
               <Route path="/personal-account" element={<PersonalAccount />} />
+              <Route path="/personal-dashboard" element={<PersonalDashboard />} />
               <Route path="/admin" element={<PrivateRoute />}>
                 <Route path="/admin">
                   <Route index element={<Admin />} />

@@ -10,6 +10,7 @@ import ScheduleMeeting from "../../components/steps/ScheduleMeeting";
 import SelectPackage from "../../components/steps/SelectPackage";
 import UploadDocuments from "../../components/steps/UploadDocuments";
 import PositiveOrFreeze from "../../components/steps/PositiveOrFreeze";
+import { Link } from "react-router-dom";
 
 const PersonalAccount = () => {
   const steps = [
@@ -137,14 +138,17 @@ const PersonalAccount = () => {
             Previous{" "}
           </button>
           {activeStep === maxSteps - 1 ? (
-            <button
-              onClick={handleNext}
-              disabled={activeStep === maxSteps - 1}
-              style={{background: "linear-gradient(180deg, #085ABB 0%, #2684FF 100%)"}}
-              className="rounded-[2.0625rem] text-[#FFF] font-[roboto] text-[1.25rem] py-3 px-10"
-            >
-              Complete
-            </button>
+            <Link to="/personal-dashboard">
+              <button
+                style={{
+                  background:
+                    "linear-gradient(180deg, #085ABB 0%, #2684FF 100%)",
+                }}
+                className="rounded-[2.0625rem] text-[#FFF] font-[roboto] text-[1.25rem] py-3 px-10 cursor-pointer"
+              >
+                Complete
+              </button>
+            </Link>
           ) : (
             <button
               onClick={handleNext}

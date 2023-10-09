@@ -1,0 +1,1 @@
+export { LinearSearchMinimalisticMagnifer } from "./LinearSearchMinimalisticMagnifer";

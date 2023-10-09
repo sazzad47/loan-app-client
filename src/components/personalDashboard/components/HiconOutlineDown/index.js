@@ -1,0 +1,1 @@
+export { HiconOutlineDown } from "./HiconOutlineDown";
