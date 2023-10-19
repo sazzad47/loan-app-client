@@ -4,7 +4,7 @@ import "./style.css";
 
 const AddUser = () => {
   return (
-    <div className="index">
+    <div className="add-user">
       <div className="div">
         <div className="overlap">
           <div className="text-wrapper">Current Users</div>

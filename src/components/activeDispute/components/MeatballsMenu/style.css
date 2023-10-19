@@ -1,0 +1,39 @@
+.meatballs-menu {
+  border-radius: 10px;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.meatballs-menu .ellipse {
+  border: 2px solid;
+  border-color: var(--lineicon);
+  border-radius: 2px;
+  height: 4px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 4px;
+}
+
+.meatballs-menu .div {
+  border: 2px solid;
+  border-color: var(--lineicon);
+  border-radius: 2px;
+  height: 4px;
+  left: 4px;
+  position: absolute;
+  top: 10px;
+  width: 4px;
+}
+
+.meatballs-menu .ellipse-2 {
+  border: 2px solid;
+  border-color: var(--lineicon);
+  border-radius: 2px;
+  height: 4px;
+  left: 16px;
+  position: absolute;
+  top: 10px;
+  width: 4px;
+}

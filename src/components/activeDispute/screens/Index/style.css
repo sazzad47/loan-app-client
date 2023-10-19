@@ -1,0 +1,4534 @@
+.active-dispute {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.active-dispute .div-2 {
+  background-color: #f7f7f7;
+  height: 2558px;
+  overflow: hidden;
+  position: relative;
+  width: 1950px;
+}
+
+.active-dispute .overlap {
+  height: 3187px;
+  left: 372px;
+  position: absolute;
+  top: 395px;
+  width: 970px;
+}
+
+.active-dispute .frame {
+  height: 15px;
+  left: 329px;
+  position: absolute;
+  top: 2635px;
+  width: 135px;
+}
+
+.active-dispute .line {
+  height: 9px;
+  left: 389px;
+  object-fit: cover;
+  position: absolute;
+  top: 380px;
+  width: 1px;
+}
+
+.active-dispute .report {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 59px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 679px;
+  white-space: nowrap;
+  width: 85px;
+}
+
+.active-dispute .client-details-card {
+  height: 1216px;
+  left: 32px;
+  position: absolute;
+  top: 1971px;
+  width: 898px;
+}
+
+.active-dispute .overlap-group {
+  height: 1216px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 898px;
+}
+
+.active-dispute .rectangle {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 1204px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 886px;
+}
+
+.active-dispute .menu-kebab {
+  height: 22px;
+  left: 829px;
+  position: absolute;
+  top: 18px;
+  width: 6px;
+}
+
+.active-dispute .group {
+  height: 159px;
+  left: 36px;
+  position: absolute;
+  top: 22px;
+  width: 803px;
+}
+
+.active-dispute .overlap-2 {
+  height: 159px;
+  position: relative;
+  width: 799px;
+}
+
+.active-dispute .rectangle-2 {
+  background-color: #f5f6f8;
+  border-radius: 21px;
+  height: 117px;
+  left: 0;
+  position: absolute;
+  top: 42px;
+  width: 799px;
+}
+
+.active-dispute .group-profile {
+  height: 67px;
+  left: 364px;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.active-dispute .rectangle-wrapper {
+  background-color: #fcfcfc;
+  border: 1px solid;
+  border-color: #f6f7f8;
+  border-radius: 100px;
+  height: 69px;
+  left: -1px;
+  position: relative;
+  top: -1px;
+  width: 72px;
+}
+
+.active-dispute .img {
+  height: 58px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 60px;
+}
+
+.active-dispute .john-blake {
+  color: #181717;
+  font-family: "Spartan", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 342px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 85px;
+  white-space: nowrap;
+  width: 115px;
+}
+
+.active-dispute .text-wrapper {
+  color: #8f8f8f;
+  font-family: "Spartan", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  left: 312px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 112px;
+  white-space: nowrap;
+  width: 174px;
+}
+
+.active-dispute .group-2 {
+  height: 76px;
+  left: 302px;
+  position: absolute;
+  top: 301px;
+  width: 293px;
+}
+
+.active-dispute .group-3 {
+  height: 76px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 129px;
+}
+
+.active-dispute .zoom-in-wrapper {
+  background-color: #ffcc00;
+  border-radius: 11px;
+  height: 52px;
+  left: 36px;
+  position: absolute;
+  top: 0;
+  width: 58px;
+}
+
+.active-dispute .zoom-in {
+  height: 26px;
+  left: -3632px;
+  position: absolute;
+  top: -9020px;
+  width: 26px;
+}
+
+.active-dispute .view-uploaded-report {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 15.4px;
+  position: absolute;
+  text-align: center;
+  top: 65px;
+  white-space: nowrap;
+  width: 127px;
+}
+
+.active-dispute .group-4 {
+  height: 76px;
+  left: 197px;
+  position: absolute;
+  top: 0;
+  width: 98px;
+}
+
+.active-dispute .document-align-left-wrapper {
+  background-color: #87a8d3;
+  border-radius: 11px;
+  height: 52px;
+  left: 19px;
+  position: absolute;
+  top: 0;
+  width: 58px;
+}
+
+.active-dispute .document-align-left {
+  height: 29px;
+  left: -3633px;
+  position: absolute;
+  top: -9021px;
+  width: 29px;
+}
+
+.active-dispute .view-your-letter {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 15.4px;
+  position: absolute;
+  text-align: center;
+  top: 65px;
+  white-space: nowrap;
+  width: 96px;
+}
+
+.active-dispute .element-bureaus-tracker {
+  height: 67px;
+  left: 213px;
+  position: absolute;
+  top: 208px;
+  width: 469px;
+}
+
+.active-dispute .line-2 {
+  height: 1px;
+  left: -3518px;
+  object-fit: cover;
+  position: absolute;
+  top: -9033px;
+  width: 67px;
+}
+
+.active-dispute .line-3 {
+  height: 1px;
+  left: -3323px;
+  object-fit: cover;
+  position: absolute;
+  top: -9033px;
+  width: 67px;
+}
+
+.active-dispute .experian-tracker {
+  height: 61px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 61px;
+}
+
+.active-dispute .ellipse-3 {
+  height: 44px;
+  left: -3642px;
+  position: absolute;
+  top: -9033px;
+  width: 45px;
+}
+
+.active-dispute .text-wrapper-2 {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 11px;
+  font-weight: 600;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 18px;
+  white-space: nowrap;
+  width: 25px;
+}
+
+.active-dispute .experian {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 50px;
+  white-space: nowrap;
+  width: 57px;
+}
+
+.active-dispute .experian-tracker-2 {
+  height: 61px;
+  left: 201px;
+  position: absolute;
+  top: 3px;
+  width: 55px;
+}
+
+.active-dispute .ellipse-4 {
+  height: 44px;
+  left: -3645px;
+  position: absolute;
+  top: -9033px;
+  width: 45px;
+}
+
+.active-dispute .text-wrapper-3 {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 11px;
+  font-weight: 600;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 18px;
+  white-space: nowrap;
+  width: 25px;
+}
+
+.active-dispute .equifax {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 50px;
+  white-space: nowrap;
+  width: 51px;
+}
+
+.active-dispute .experian-tracker-3 {
+  height: 61px;
+  left: 397px;
+  position: absolute;
+  top: 3px;
+  width: 76px;
+}
+
+.active-dispute .ellipse-5 {
+  height: 44px;
+  left: -3634px;
+  position: absolute;
+  top: -9033px;
+  width: 45px;
+}
+
+.active-dispute .text-wrapper-4 {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 11px;
+  font-weight: 600;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 18px;
+  white-space: nowrap;
+  width: 25px;
+}
+
+.active-dispute .trans-union {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 50px;
+  white-space: nowrap;
+  width: 72px;
+}
+
+.active-dispute .overlap-wrapper {
+  height: 30px;
+  left: 30px;
+  position: absolute;
+  top: 17px;
+  width: 102px;
+}
+
+.active-dispute .overlap-3 {
+  background-color: #f1f1f1;
+  border-radius: 18px;
+  height: 30px;
+  position: relative;
+  width: 100px;
+}
+
+.active-dispute .this-week {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 500;
+  left: 16px;
+  letter-spacing: 0.4px;
+  line-height: 11.3px;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+  width: 61px;
+}
+
+.active-dispute .down {
+  height: 5px;
+  left: 78px;
+  position: absolute;
+  top: 12px;
+  width: 11px;
+}
+
+.active-dispute .dropdown-for-pulling {
+  height: 33px;
+  left: 16px;
+  position: absolute;
+  top: 1148px;
+  width: 35px;
+}
+
+.active-dispute .overlap-4 {
+  border-radius: 17.42px/16.63px;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 35px;
+}
+
+.active-dispute .ellipse-6 {
+  background-color: #68656591;
+  border-radius: 6.22px/4.32px;
+  filter: blur(16px);
+  height: 9px;
+  left: 12px;
+  position: absolute;
+  top: 25px;
+  width: 12px;
+}
+
+.active-dispute .ellipse-7 {
+  background-color: #ffd603;
+  border-radius: 17.42px/16.63px;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 35px;
+}
+
+.active-dispute .down-2 {
+  height: 16px;
+  left: -3635px;
+  position: absolute;
+  top: -9024px;
+  width: 10px;
+}
+
+.active-dispute .created {
+  height: 19px;
+  left: 66px;
+  position: absolute;
+  top: 724px;
+  width: 110px;
+}
+
+.active-dispute .text-wrapper-5 {
+  color: #181717;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  white-space: nowrap;
+  width: 75px;
+}
+
+.active-dispute .numbers {
+  height: 19px;
+  left: 88px;
+  position: absolute;
+  top: 0;
+  width: 22px;
+}
+
+.active-dispute .div-wrapper {
+  background-color: #f1f1f1;
+  border-radius: 10.23px/9.5px;
+  height: 19px;
+  position: relative;
+  width: 20px;
+}
+
+.active-dispute .text-wrapper-6 {
+  color: #333333b8;
+  font-family: "Spartan", Helvetica;
+  font-size: 11.7px;
+  font-weight: 600;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 9px;
+}
+
+.active-dispute .equifax-round {
+  background-color: #33333305;
+  height: 149px;
+  left: 73px;
+  position: absolute;
+  top: 778px;
+  width: 780px;
+}
+
+.active-dispute .equifax-round-2 {
+  height: 40px;
+  left: 66px;
+  position: absolute;
+  top: 13px;
+  width: 70px;
+}
+
+.active-dispute .equifax-2 {
+  color: #181717ab;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 61px;
+}
+
+.active-dispute .round {
+  color: #181717;
+  font-family: "Spartan", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+  white-space: nowrap;
+  width: 66px;
+}
+
+.active-dispute .equifax-round-3 {
+  height: 40px;
+  left: 239px;
+  position: absolute;
+  top: 13px;
+  width: 87px;
+}
+
+.active-dispute .date {
+  color: #181717ab;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 43px;
+}
+
+.active-dispute .text-wrapper-7 {
+  color: #181717;
+  font-family: "Spartan", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+  white-space: nowrap;
+  width: 83px;
+}
+
+.active-dispute .equifax-round-4 {
+  height: 40px;
+  left: 422px;
+  position: absolute;
+  top: 13px;
+  width: 126px;
+}
+
+.active-dispute .status {
+  color: #181717ab;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 55px;
+}
+
+.active-dispute .action-needed {
+  color: #181717;
+  font-family: "Spartan", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+  white-space: nowrap;
+  width: 122px;
+}
+
+.active-dispute .linear-time-history {
+  height: 24px;
+  left: -3629px;
+  position: absolute;
+  top: -8999px;
+  width: 24px;
+}
+
+.active-dispute .rectangle-3 {
+  background: linear-gradient(180deg, rgb(142, 202, 230) 0%, rgb(120, 190, 249) 100%);
+  height: 65px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.active-dispute .subtract-dropdown {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/651652aa45840ed7736087dd/img/rectangle-6-1@2x.png);
+  background-size: 100% 100%;
+  height: 35px;
+  left: -2908px;
+  position: absolute;
+  top: -9018px;
+  width: 34px;
+}
+
+.active-dispute .chat-alt-add-light-instance {
+  left: -3619px !important;
+  top: -9027px !important;
+  transform: unset !important;
+}
+
+.active-dispute .preview-and-mrk-SENT {
+  height: 55px;
+  left: 191px;
+  position: absolute;
+  top: 80px;
+  width: 397px;
+}
+
+.active-dispute .mark-sent-button {
+  background-color: #137fff;
+  border-radius: 4px;
+  height: 55px;
+  left: 242px;
+  position: absolute;
+  top: 0;
+  width: 155px;
+}
+
+.active-dispute .text-and-icon {
+  height: 37px;
+  left: 26px;
+  position: relative;
+  top: 9px;
+  width: 106px;
+}
+
+.active-dispute .done-ring-round-instance {
+  height: 20px !important;
+  left: -3606px !important;
+  top: -9033px !important;
+  width: 20px !important;
+}
+
+.active-dispute .mark-as-sent {
+  color: #ffffff;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 13.7px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  white-space: nowrap;
+  width: 104px;
+}
+
+.active-dispute .text-and-icon-wrapper {
+  border: 1px solid;
+  border-color: #a7a9ac;
+  border-radius: 4px;
+  height: 55px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 155px;
+}
+
+.active-dispute .text-and-icon-2 {
+  height: 37px;
+  left: 45px;
+  position: relative;
+  top: 5px;
+  width: 66px;
+}
+
+.active-dispute .view-alt-light-instance {
+  left: -3628px !important;
+  top: -9033px !important;
+}
+
+.active-dispute .preview {
+  color: #686565;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 13.7px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  white-space: nowrap;
+  width: 64px;
+}
+
+.active-dispute .question-instance {
+  left: -3094px !important;
+  top: -8996px !important;
+}
+
+.active-dispute .meatballs-menu-instance {
+  left: 696px !important;
+  position: absolute !important;
+  top: 22px !important;
+}
+
+.active-dispute .experianround {
+  background-color: #33333305;
+  height: 66px;
+  left: 73px;
+  position: absolute;
+  top: 943px;
+  width: 780px;
+}
+
+.active-dispute .equifax-round-5 {
+  height: 39px;
+  left: 66px;
+  position: absolute;
+  top: 13px;
+  width: 73px;
+}
+
+.active-dispute .experian-2 {
+  color: #181717ab;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 69px;
+}
+
+.active-dispute .experianround-2 {
+  height: 139px;
+  left: 73px;
+  position: absolute;
+  top: 961px;
+  width: 780px;
+}
+
+.active-dispute .overlap-5 {
+  background-color: #33333305;
+  height: 66px;
+  left: 0;
+  position: absolute;
+  top: 73px;
+  width: 780px;
+}
+
+.active-dispute .equifax-round-6 {
+  height: 39px;
+  left: 66px;
+  position: absolute;
+  top: 13px;
+  width: 98px;
+}
+
+.active-dispute .transunion {
+  color: #181717ab;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 94px;
+}
+
+.active-dispute .info-hover-box {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/651652aa45840ed7736087dd/img/rectangle-6-1@2x.png);
+  background-size: 100% 100%;
+  height: 109px;
+  left: -3111px;
+  position: absolute;
+  top: -9033px;
+  width: 193px;
+}
+
+.active-dispute .para-heading {
+  height: 72px;
+  left: 22px;
+  position: relative;
+  top: 14px;
+  width: 153px;
+}
+
+.active-dispute .action-needed-2 {
+  color: #ffffff;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 148px;
+}
+
+.active-dispute .p {
+  color: #f1f1f1;
+  font-family: "Spartan", Helvetica;
+  font-size: 11px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14.3px;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  width: 149px;
+}
+
+.active-dispute .linear-time-history-2 {
+  height: 24px;
+  left: -3629px;
+  position: absolute;
+  top: -8926px;
+  width: 24px;
+}
+
+.active-dispute .chat-alt-add-light-wrapper {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/651652aa45840ed7736087dd/img/rectangle-6-1@2x.png);
+  background-size: 100% 100%;
+  height: 35px;
+  left: -2908px;
+  position: absolute;
+  top: -8945px;
+  width: 34px;
+}
+
+.active-dispute .design-component-instance-node {
+  left: -3094px !important;
+  top: -8923px !important;
+}
+
+.active-dispute .opion-box {
+  height: 136px;
+  left: 702px;
+  position: absolute;
+  top: 1080px;
+  width: 167px;
+}
+
+.active-dispute .overlap-6 {
+  height: 136px;
+  position: relative;
+}
+
+.active-dispute .rectangle-4 {
+  background-color: #2632381a;
+  border-radius: 20px;
+  filter: blur(22px);
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 16px;
+  width: 167px;
+}
+
+.active-dispute .rectangle-5 {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 167px;
+}
+
+.active-dispute .OPTION-BOX {
+  height: 92px;
+  left: 12px;
+  position: absolute;
+  top: 16px;
+  width: 144px;
+}
+
+.active-dispute .download-print {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 146px;
+}
+
+.active-dispute .overlap-7 {
+  height: 28px;
+  position: relative;
+  width: 144px;
+}
+
+.active-dispute .downloadprint-icon {
+  background-color: #ffffff;
+  border-radius: 9.5px;
+  box-shadow: 0px 0px 5px #5083c163;
+  height: 19px;
+  left: 1px;
+  position: absolute;
+  top: 5px;
+  width: 19px;
+}
+
+.active-dispute .upload-light {
+  height: 12px;
+  left: 4px;
+  position: relative;
+  top: 4px;
+  transform: rotate(180deg);
+  width: 12px;
+}
+
+.active-dispute .overlap-group-2 {
+  height: 9px;
+  left: 4772px;
+  position: relative;
+  top: 12506px;
+  width: 10px;
+}
+
+.active-dispute .subtract {
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  transform: rotate(-180deg);
+  width: 10px;
+}
+
+.active-dispute .vector {
+  height: 4px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 4px;
+}
+
+.active-dispute .rectangle-6 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #0000002b;
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 144px;
+}
+
+.active-dispute .text-wrapper-8 {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: 13.7px;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+  width: 107px;
+}
+
+.active-dispute .overlap-group-wrapper {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 34px;
+  width: 146px;
+}
+
+.active-dispute .message-duotone-line-wrapper {
+  background-color: #ffffff;
+  border-radius: 9.5px;
+  box-shadow: 0px 0px 5px #5083c163;
+  height: 19px;
+  left: 2px;
+  position: absolute;
+  top: 6px;
+  width: 19px;
+}
+
+.active-dispute .message-duotone-line {
+  height: 14px;
+  left: 3px;
+  position: relative;
+  top: 3px;
+  width: 14px;
+}
+
+.active-dispute .rectangle-7 {
+  border: 0.5px solid;
+  border-color: #424242;
+  border-radius: 2px;
+  height: 9px;
+  left: 1px;
+  position: absolute;
+  top: 2px;
+  width: 11px;
+}
+
+.active-dispute .overlap-group-3 {
+  height: 4px;
+  left: -4769px;
+  position: absolute;
+  top: -12534px;
+  width: 9px;
+}
+
+.active-dispute .vector-2 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 9px;
+}
+
+.active-dispute .vector-3 {
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.active-dispute .text-wrapper-9 {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: 13.7px;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+  width: 112px;
+}
+
+.active-dispute .edit-button {
+  all: unset;
+  box-sizing: border-box;
+  height: 22px;
+  left: 5px;
+  position: absolute;
+  top: 70px;
+  width: 57px;
+}
+
+.active-dispute .overlap-8 {
+  background-color: #137fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px #00000038;
+  height: 22px;
+  position: relative;
+  width: 55px;
+}
+
+.active-dispute .text-wrapper-10 {
+  color: #ffffff;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: 13.7px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  white-space: nowrap;
+  width: 28px;
+}
+
+.active-dispute .button {
+  all: unset;
+  box-sizing: border-box;
+  height: 22px;
+  left: 83px;
+  position: absolute;
+  top: 70px;
+  width: 57px;
+}
+
+.active-dispute .overlap-9 {
+  border: 1px solid;
+  border-color: #ea6a7a4a;
+  border-radius: 10px;
+  height: 22px;
+  position: relative;
+  width: 55px;
+}
+
+.active-dispute .text-wrapper-11 {
+  color: #ea6a7a;
+  font-family: "Spartan", Helvetica;
+  font-size: 11px;
+  font-weight: 500;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: 12.6px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 40px;
+}
+
+.active-dispute .filter {
+  height: 133px;
+  left: 726px;
+  position: absolute;
+  top: 756px;
+  width: 172px;
+}
+
+.active-dispute .overlap-10 {
+  height: 133px;
+  position: relative;
+}
+
+.active-dispute .rectangle-8 {
+  background-color: #0000001a;
+  border-radius: 11px;
+  filter: blur(36px);
+  height: 119px;
+  left: 1px;
+  position: absolute;
+  top: 14px;
+  width: 171px;
+}
+
+.active-dispute .rectangle-9 {
+  background-color: #ffffff;
+  border-radius: 11px;
+  height: 119px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 171px;
+}
+
+.active-dispute .sent-with-icon {
+  height: 20px;
+  left: 27px;
+  position: absolute;
+  top: 68px;
+  width: 66px;
+}
+
+.active-dispute .sent {
+  color: #151414;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  white-space: nowrap;
+  width: 38px;
+}
+
+.active-dispute .done-ring-round-2 {
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.active-dispute .overlap-group-4 {
+  height: 15px;
+  left: -4802px;
+  position: relative;
+  top: -12220px;
+  width: 21px;
+}
+
+.active-dispute .line-4 {
+  height: 9px;
+  left: 14px;
+  position: absolute;
+  top: 2px;
+  width: 7px;
+}
+
+.active-dispute .ellipse-8 {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.active-dispute .completed-with-icon {
+  height: 44px;
+  left: 17px;
+  position: absolute;
+  top: 10px;
+  width: 128px;
+}
+
+.active-dispute .completed {
+  color: #151414;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 28px;
+  white-space: nowrap;
+  width: 84px;
+}
+
+.active-dispute .filter-2 {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 33px;
+}
+
+.active-dispute .flag-alt-light-instance {
+  left: -3638px !important;
+  top: -9013px !important;
+}
+
+.active-dispute .create-new-dispute {
+  height: 38px;
+  left: 613px;
+  position: absolute;
+  top: 714px;
+  width: 185px;
+}
+
+.active-dispute .create-new-dispute-wrapper {
+  background: linear-gradient(180deg, rgb(66.76, 149.63, 246.5) 0%, rgba(176.66, 224.28, 246.5, 0.9) 100%);
+  border-radius: 6px;
+  box-shadow: 0px 7px 12px #0000001f;
+  height: 38px;
+  position: relative;
+  width: 183px;
+}
+
+.active-dispute .create-new-dispute-2 {
+  color: #ffffff;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: 155px;
+}
+
+.active-dispute .all-thing {
+  height: 99px;
+  left: 87px;
+  position: absolute;
+  top: 432px;
+  width: 667px;
+}
+
+.active-dispute .reason {
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #333333;
+  height: 99px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 107px;
+}
+
+.active-dispute .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 25px;
+  left: 11px;
+  position: relative;
+  top: 18px;
+}
+
+.active-dispute .reason-wrapper {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #a2a2a2;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 5px 4px;
+  position: relative;
+}
+
+.active-dispute .reason-2 {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 14.8px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 71.9px;
+}
+
+.active-dispute .text-wrapper-12 {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 83.24px;
+}
+
+.active-dispute .credit {
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #333333;
+  height: 99px;
+  left: 134px;
+  position: absolute;
+  top: 0;
+  width: 195px;
+}
+
+.active-dispute .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 25px;
+  left: 16px;
+  position: relative;
+  top: 18px;
+}
+
+.active-dispute .credit-furnisher-wrapper {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #a2a2a2;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.active-dispute .credit-furnisher {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 14.8px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 143.16px;
+}
+
+.active-dispute .accounts {
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #333333;
+  height: 99px;
+  left: 356px;
+  position: absolute;
+  top: 0;
+  width: 117px;
+}
+
+.active-dispute .frame-4 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 25px;
+  left: 13px;
+  position: relative;
+  top: 18px;
+}
+
+.active-dispute .frame-5 {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #a2a2a2;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 5px 0px;
+  position: relative;
+}
+
+.active-dispute .accounts-2 {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 14.8px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 87.81px;
+}
+
+.active-dispute .subject {
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #333333;
+  height: 99px;
+  left: 500px;
+  position: absolute;
+  top: 0;
+  width: 167px;
+}
+
+.active-dispute .frame-6 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 25px;
+  left: 9px;
+  position: relative;
+  top: 17px;
+}
+
+.active-dispute .letter-subject {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 14.8px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 136.85px;
+}
+
+.active-dispute .bureau-no-response {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  height: 12.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 146.13px;
+}
+
+.active-dispute .frame-7 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 25px;
+  left: 87px;
+  position: absolute;
+  top: 563px;
+}
+
+.active-dispute .instructions {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 14.8px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 106.18px;
+}
+
+.active-dispute .the-account-status {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  color: #a2a2a2;
+  display: -webkit-box;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 300;
+  height: 43.72px;
+  letter-spacing: 0;
+  line-height: normal;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  width: 639.07px;
+}
+
+.active-dispute .filter-big-instance {
+  left: -2830px !important;
+  top: -8312px !important;
+}
+
+.active-dispute .rectangle-10 {
+  background-color: #0000001c;
+  border-radius: 30px;
+  filter: blur(49px);
+  height: 492px;
+  left: 41px;
+  position: absolute;
+  top: 1490px;
+  width: 886px;
+}
+
+.active-dispute .client-details-card-2 {
+  height: 1234px;
+  left: 41px;
+  position: absolute;
+  top: 716px;
+  width: 929px;
+}
+
+.active-dispute .overlap-11 {
+  height: 1234px;
+  position: relative;
+}
+
+.active-dispute .rectangle-11 {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 1204px;
+  left: 0;
+  position: absolute;
+  top: 18px;
+  width: 886px;
+}
+
+.active-dispute .menu-kebab-2 {
+  height: 22px;
+  left: 829px;
+  position: absolute;
+  top: 36px;
+  width: 6px;
+}
+
+.active-dispute .group-5 {
+  height: 159px;
+  left: 36px;
+  position: absolute;
+  top: 40px;
+  width: 803px;
+}
+
+.active-dispute .group-6 {
+  height: 76px;
+  left: 302px;
+  position: absolute;
+  top: 319px;
+  width: 293px;
+}
+
+.active-dispute .zoom-in-2 {
+  height: 26px;
+  left: 16px;
+  position: absolute;
+  top: 13px;
+  width: 26px;
+}
+
+.active-dispute .document-align-left-2 {
+  height: 29px;
+  left: 15px;
+  position: absolute;
+  top: 12px;
+  width: 29px;
+}
+
+.active-dispute .element-bureaus-tracker-2 {
+  height: 67px;
+  left: 213px;
+  position: absolute;
+  top: 226px;
+  width: 469px;
+}
+
+.active-dispute .line-5 {
+  height: 67px;
+  left: 129px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.active-dispute .line-6 {
+  height: 67px;
+  left: 325px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.active-dispute .overlap-group-5 {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6530d576c794a43bb130d28a/img/ellipse-109-3.svg);
+  background-size: 100% 100%;
+  height: 84px;
+  left: -11px;
+  position: relative;
+  top: -16px;
+  width: 82px;
+}
+
+.active-dispute .text-wrapper-13 {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 11px;
+  font-weight: 600;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+  width: 25px;
+}
+
+.active-dispute .experian-3 {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 66px;
+  white-space: nowrap;
+  width: 57px;
+}
+
+.active-dispute .overlap-12 {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6530d576c794a43bb130d28a/img/ellipse-109-4.svg);
+  background-size: 100% 100%;
+  height: 84px;
+  left: -17px;
+  position: relative;
+  top: -16px;
+  width: 82px;
+}
+
+.active-dispute .text-wrapper-14 {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 11px;
+  font-weight: 600;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+  width: 25px;
+}
+
+.active-dispute .equifax-3 {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 66px;
+  white-space: nowrap;
+  width: 51px;
+}
+
+.active-dispute .overlap-13 {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6530d576c794a43bb130d28a/img/ellipse-109-5.svg);
+  background-size: 100% 100%;
+  height: 52px;
+  left: 11px;
+  position: absolute;
+  top: -5px;
+  width: 56px;
+}
+
+.active-dispute .text-wrapper-15 {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 11px;
+  font-weight: 600;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 23px;
+  white-space: nowrap;
+  width: 25px;
+}
+
+.active-dispute .group-7 {
+  height: 30px;
+  left: 30px;
+  position: absolute;
+  top: 35px;
+  width: 102px;
+}
+
+.active-dispute .dropdown-for-pulling-2 {
+  height: 33px;
+  left: 16px;
+  position: absolute;
+  top: 1166px;
+  width: 35px;
+}
+
+.active-dispute .overlap-14 {
+  border-radius: 17.42px/16.63px;
+  height: 33px;
+  position: relative;
+}
+
+.active-dispute .down-3 {
+  height: 18px;
+  left: 12px;
+  position: absolute;
+  top: 8px;
+  width: 12px;
+}
+
+.active-dispute .created-2 {
+  height: 19px;
+  left: 66px;
+  position: absolute;
+  top: 742px;
+  width: 110px;
+}
+
+.active-dispute .equifax-round-7 {
+  background-color: #33333305;
+  height: 149px;
+  left: 73px;
+  position: absolute;
+  top: 796px;
+  width: 780px;
+}
+
+.active-dispute .linear-time-history-3 {
+  height: 24px;
+  left: 19px;
+  position: absolute;
+  top: 34px;
+  width: 24px;
+}
+
+.active-dispute .subtract-dropdown-2 {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6530d576c794a43bb130d28a/img/ellipse-214-3.svg);
+  background-size: 100% 100%;
+  height: 35px;
+  left: 740px;
+  position: absolute;
+  top: 15px;
+  width: 34px;
+}
+
+.active-dispute .chat-alt-add-light-2 {
+  left: 5px !important;
+  top: 6px !important;
+  transform: unset !important;
+}
+
+.active-dispute .done-ring-round-2-instance {
+  height: 20px !important;
+  left: 42px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 20px !important;
+}
+
+.active-dispute .view-alt-light-2 {
+  height: 24px !important;
+  left: 20px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 24px !important;
+}
+
+.active-dispute .question-2 {
+  left: 554px !important;
+  top: 37px !important;
+}
+
+.active-dispute .experianround-3 {
+  background-color: #33333305;
+  height: 66px;
+  left: 73px;
+  position: absolute;
+  top: 961px;
+  width: 780px;
+}
+
+.active-dispute .chat-alt-add-light-4 {
+  height: 24px !important;
+  left: 5px !important;
+  position: absolute !important;
+  top: 6px !important;
+  width: 24px !important;
+}
+
+.active-dispute .question-4 {
+  height: 18px !important;
+  left: 554px !important;
+  position: absolute !important;
+  top: 37px !important;
+  width: 18px !important;
+}
+
+.active-dispute .experianround-4 {
+  height: 139px;
+  left: 73px;
+  position: absolute;
+  top: 979px;
+  width: 780px;
+}
+
+.active-dispute .overlap-15 {
+  height: 139px;
+  position: relative;
+}
+
+.active-dispute .rectangle-12 {
+  background-color: #33333305;
+  border: 0px none;
+  height: 66px;
+  left: 0;
+  position: absolute;
+  top: 73px;
+  width: 780px;
+}
+
+.active-dispute .info-hover-box-2 {
+  height: 109px;
+  left: 537px;
+  position: absolute;
+  top: 0;
+  width: 193px;
+}
+
+.active-dispute .para-heading-wrapper {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6530d576c794a43bb130d28a/img/union-1.svg);
+  background-size: 100% 100%;
+  height: 137px;
+  left: -14px;
+  position: relative;
+  top: -4px;
+  width: 221px;
+}
+
+.active-dispute .para-heading-2 {
+  height: 72px;
+  left: 36px;
+  position: relative;
+  top: 18px;
+  width: 153px;
+}
+
+.active-dispute .equifax-round-8 {
+  height: 39px;
+  left: 66px;
+  position: absolute;
+  top: 86px;
+  width: 98px;
+}
+
+.active-dispute .equifax-round-9 {
+  height: 40px;
+  left: 239px;
+  position: absolute;
+  top: 86px;
+  width: 87px;
+}
+
+.active-dispute .equifax-round-10 {
+  height: 40px;
+  left: 422px;
+  position: absolute;
+  top: 86px;
+  width: 126px;
+}
+
+.active-dispute .linear-time-history-4 {
+  height: 24px;
+  left: 19px;
+  position: absolute;
+  top: 107px;
+  width: 24px;
+}
+
+.active-dispute .rectangle-13 {
+  background: linear-gradient(180deg, rgb(142, 202, 230) 0%, rgb(120, 190, 249) 100%);
+  height: 65px;
+  left: 0;
+  position: absolute;
+  top: 73px;
+  width: 5px;
+}
+
+.active-dispute .chat-alt-add-light-4-wrapper {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6530d576c794a43bb130d28a/img/ellipse-214-3.svg);
+  background-size: 100% 100%;
+  height: 35px;
+  left: 740px;
+  position: absolute;
+  top: 88px;
+  width: 34px;
+}
+
+.active-dispute .question-4-instance {
+  height: 18px !important;
+  left: 554px !important;
+  position: absolute !important;
+  top: 110px !important;
+  width: 18px !important;
+}
+
+.active-dispute .meatballs-menu-2 {
+  left: 696px !important;
+  position: absolute !important;
+  top: 95px !important;
+}
+
+.active-dispute .opion-box-2 {
+  height: 136px;
+  left: 702px;
+  position: absolute;
+  top: 1098px;
+  width: 167px;
+}
+
+.active-dispute .overlap-group-6 {
+  height: 10px;
+  left: 1px;
+  position: relative;
+  top: 1px;
+  width: 10px;
+}
+
+.active-dispute .subtract-2 {
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  transform: rotate(-180deg);
+  width: 10px;
+}
+
+.active-dispute .vector-4 {
+  height: 6px;
+  left: 3px;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 5px;
+}
+
+.active-dispute .overlap-group-7 {
+  border: 0.5px solid;
+  border-color: #424242;
+  border-radius: 2px;
+  height: 9px;
+  left: 1px;
+  position: relative;
+  top: 2px;
+  width: 11px;
+}
+
+.active-dispute .vector-5 {
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 10px;
+}
+
+.active-dispute .vector-6 {
+  height: 4px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.active-dispute .filter-big-2 {
+  left: 818px !important;
+  top: 739px !important;
+}
+
+.active-dispute .filter-3 {
+  height: 133px;
+  left: 726px;
+  position: absolute;
+  top: 774px;
+  width: 172px;
+}
+
+.active-dispute .overlap-group-8 {
+  height: 16px;
+  left: 2px;
+  position: relative;
+  top: 2px;
+  width: 16px;
+}
+
+.active-dispute .line-7 {
+  height: 8px;
+  left: 5px;
+  position: absolute;
+  top: 2px;
+  width: 11px;
+}
+
+.active-dispute .ellipse-9 {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.active-dispute .flag-alt-light-2 {
+  left: 10px !important;
+  top: 20px !important;
+}
+
+.active-dispute .create-new-dispute-3 {
+  height: 38px;
+  left: 613px;
+  position: absolute;
+  top: 732px;
+  width: 185px;
+}
+
+.active-dispute .filter-dropdown-for {
+  height: 421px;
+  left: 703px;
+  position: absolute;
+  top: 0;
+  width: 226px;
+}
+
+.active-dispute .overlap-16 {
+  height: 448px;
+  left: -1px;
+  position: relative;
+  top: -1px;
+  width: 228px;
+}
+
+.active-dispute .rectangle-14 {
+  background-color: #33333314;
+  border-radius: 26px;
+  filter: blur(52px);
+  height: 428px;
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 228px;
+}
+
+.active-dispute .rectangle-15 {
+  -webkit-backdrop-filter: blur(9px) brightness(100%);
+  backdrop-filter: blur(9px) brightness(100%);
+  background-color: #fdfdfd;
+  border-radius: 26px;
+  height: 423px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 228px;
+}
+
+.active-dispute .frame-8 {
+  height: 186px;
+  left: 51px;
+  position: absolute;
+  top: 26px;
+  width: 136px;
+}
+
+.active-dispute .name {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 109px;
+}
+
+.active-dispute .div-3 {
+  border: 1px solid;
+  border-color: #d8d8d8;
+  border-radius: 6px;
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 22px;
+}
+
+.active-dispute .line-8 {
+  height: 6px;
+  left: 5px;
+  position: absolute;
+  top: 7px;
+  width: 10px;
+}
+
+.active-dispute .newest {
+  color: #686565;
+  font-family: "Spartan", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  white-space: nowrap;
+  width: 61px;
+}
+
+.active-dispute .frame-9 {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 42px;
+  width: 98px;
+}
+
+.active-dispute .email {
+  height: 22px;
+  position: relative;
+  width: 101px;
+}
+
+.active-dispute .older {
+  color: #686565;
+  font-family: "Spartan", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  white-space: nowrap;
+  width: 51px;
+}
+
+.active-dispute .frame-10 {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 111px;
+  width: 127px;
+}
+
+.active-dispute .date-2 {
+  height: 22px;
+  position: relative;
+}
+
+.active-dispute .text-wrapper-16 {
+  color: #686565;
+  font-family: "Spartan", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  white-space: nowrap;
+  width: 77px;
+}
+
+.active-dispute .according-to-credit {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: -25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 83px;
+  white-space: nowrap;
+  width: 142px;
+}
+
+.active-dispute .frame-11 {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 153px;
+  width: 134px;
+}
+
+.active-dispute .date-3 {
+  height: 22px;
+  position: relative;
+  width: 136px;
+}
+
+.active-dispute .text-wrapper-17 {
+  color: #686565;
+  font-family: "Spartan", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  white-space: nowrap;
+  width: 86px;
+}
+
+.active-dispute .frame-12 {
+  height: 22px;
+  left: 51px;
+  position: absolute;
+  top: 245px;
+  width: 127px;
+}
+
+.active-dispute .created-3 {
+  color: #686565;
+  font-family: "Spartan", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  white-space: nowrap;
+  width: 63px;
+}
+
+.active-dispute .according-to-letter {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 217px;
+  white-space: nowrap;
+  width: 159px;
+}
+
+.active-dispute .frame-13 {
+  height: 22px;
+  left: 51px;
+  position: absolute;
+  top: 285px;
+  width: 134px;
+}
+
+.active-dispute .sent-2 {
+  color: #686565;
+  font-family: "Spartan", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  white-space: nowrap;
+  width: 38px;
+}
+
+.active-dispute .frame-14 {
+  height: 22px;
+  left: 51px;
+  position: absolute;
+  top: 325px;
+  width: 134px;
+}
+
+.active-dispute .completed-2 {
+  color: #686565;
+  font-family: "Spartan", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  white-space: nowrap;
+  width: 86px;
+}
+
+.active-dispute .all-thing-2 {
+  height: 99px;
+  left: 87px;
+  position: absolute;
+  top: 450px;
+  width: 667px;
+}
+
+.active-dispute .frame-15 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 25px;
+  left: 87px;
+  position: absolute;
+  top: 581px;
+}
+
+.active-dispute .frame-16 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 14px;
+  left: 745px;
+  position: absolute;
+  top: 1089px;
+}
+
+.active-dispute .clear-wrapper {
+  align-items: center;
+  border: 1px solid;
+  border-color: #f8f8f8;
+  border-radius: 11px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  margin-top: -1px;
+  overflow: hidden;
+  padding: 10px 9px;
+  position: relative;
+  width: 73px;
+}
+
+.active-dispute .clear {
+  color: #cfcfcf;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.5px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.active-dispute .apply-filter-wrapper {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(56, 176, 0) 0.01%, rgb(80.05, 216.75, 16.26) 100%);
+  border-radius: 11px;
+  box-shadow: 0px 7px 10px #38b00042;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px 9px;
+  position: relative;
+}
+
+.active-dispute .apply-filter {
+  color: #ffffff;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.active-dispute .report-filter {
+  height: 39px;
+  left: 761px;
+  position: absolute;
+  top: 669px;
+  width: 181px;
+}
+
+.active-dispute .overlap-17 {
+  height: 39px;
+  position: relative;
+}
+
+.active-dispute .group-8 {
+  height: 39px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 181px;
+}
+
+.active-dispute .frame-wrapper {
+  background-color: #f4f4f4;
+  border: 1px solid;
+  border-color: #f1f1f1;
+  border-radius: 17px;
+  height: 41px;
+  left: -1px;
+  position: relative;
+  top: -1px;
+  width: 183px;
+}
+
+.active-dispute .frame-17 {
+  align-items: center;
+  display: flex;
+  gap: 33px;
+  height: 15px;
+  left: 51px;
+  position: relative;
+  top: 12px;
+  width: 109px;
+}
+
+.active-dispute .text-wrapper-18 {
+  color: #727272;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 13.97px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.48px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 61.44px;
+}
+
+.active-dispute .filter-4 {
+  height: 18.17px;
+  margin-bottom: -1.58px;
+  margin-right: -1.63px;
+  margin-top: -1.58px;
+  position: relative;
+  width: 16.19px;
+}
+
+.active-dispute .down-4 {
+  height: 7px;
+  left: 22px;
+  position: absolute;
+  top: 16px;
+  width: 14px;
+}
+
+.active-dispute .letter-graph {
+  height: 738px;
+  left: 39px;
+  position: absolute;
+  top: 0;
+  width: 863px;
+}
+
+.active-dispute .overlap-18 {
+  height: 738px;
+  position: relative;
+  width: 859px;
+}
+
+.active-dispute .rectangle-16 {
+  background-color: #fdfdfd;
+  border-radius: 30px;
+  height: 614px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 830px;
+}
+
+.active-dispute .this-week-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 43px;
+  left: 620px;
+  position: absolute;
+  top: 37px;
+  width: 156px;
+}
+
+.active-dispute .rectangle-17 {
+  background-color: #eeeeee42;
+  border-radius: 31px;
+  height: 43px;
+  position: relative;
+  width: 156px;
+}
+
+.active-dispute .this-week-text-and {
+  align-items: center;
+  display: inline-flex;
+  gap: 6px;
+  left: 21px;
+  position: absolute;
+  top: 10px;
+}
+
+.active-dispute .this-month {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  height: 12.89px;
+  letter-spacing: 0.56px;
+  line-height: 15.9px;
+  position: relative;
+  white-space: nowrap;
+  width: 96.5px;
+}
+
+.active-dispute .this-week-arrow {
+  background-color: #fcfcfc;
+  border-radius: 11.77px/11.6px;
+  height: 23.19px;
+  position: relative;
+  width: 23.54px;
+}
+
+.active-dispute .filter-5 {
+  height: 12px;
+  left: 6px;
+  position: absolute;
+  top: 5px;
+  width: 11px;
+}
+
+.active-dispute .whole-graph {
+  height: 647px;
+  left: 0;
+  position: absolute;
+  top: 90px;
+  width: 859px;
+}
+
+.active-dispute .overlap-19 {
+  height: 647px;
+  position: relative;
+}
+
+.active-dispute .graph-line-showing {
+  height: 416px;
+  left: 150px;
+  position: absolute;
+  top: 225px;
+  width: 606px;
+}
+
+.active-dispute .mon {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 31px;
+  letter-spacing: 0.48px;
+  line-height: 13.6px;
+  position: absolute;
+  top: 222px;
+  white-space: nowrap;
+}
+
+.active-dispute .tue {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 115px;
+  letter-spacing: 0.48px;
+  line-height: 13.6px;
+  position: absolute;
+  top: 222px;
+  white-space: nowrap;
+}
+
+.active-dispute .wed {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 193px;
+  letter-spacing: 0.48px;
+  line-height: 13.6px;
+  position: absolute;
+  top: 222px;
+  white-space: nowrap;
+}
+
+.active-dispute .thu {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 279px;
+  letter-spacing: 0.48px;
+  line-height: 13.6px;
+  position: absolute;
+  top: 222px;
+  white-space: nowrap;
+}
+
+.active-dispute .fri {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 358px;
+  letter-spacing: 0.48px;
+  line-height: 13.6px;
+  position: absolute;
+  top: 222px;
+  white-space: nowrap;
+}
+
+.active-dispute .sat {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 430px;
+  letter-spacing: 0.48px;
+  line-height: 13.6px;
+  position: absolute;
+  top: 222px;
+  white-space: nowrap;
+}
+
+.active-dispute .sun {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 507px;
+  letter-spacing: 0.48px;
+  line-height: 13.6px;
+  position: absolute;
+  top: 222px;
+  white-space: nowrap;
+}
+
+.active-dispute .line-9 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 208px;
+  width: 593px;
+}
+
+.active-dispute .graph-with-point {
+  height: 647px;
+  left: 145px;
+  position: absolute;
+  top: 0;
+  width: 713px;
+}
+
+.active-dispute .overlap-group-9 {
+  height: 408px;
+  left: 31px;
+  position: relative;
+  top: 27px;
+  width: 576px;
+}
+
+.active-dispute .rectangle-18 {
+  height: 393px;
+  left: 13px;
+  position: absolute;
+  top: 15px;
+  width: 562px;
+}
+
+.active-dispute .line-10 {
+  height: 388px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 542px;
+}
+
+.active-dispute .indicator-for-letter {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 163px;
+  position: absolute;
+  top: 265px;
+}
+
+.active-dispute .ellipse-10 {
+  background-color: #ffffff;
+  border-radius: 13.5px/13.44px;
+  height: 26.87px;
+  position: relative;
+  width: 27px;
+}
+
+.active-dispute .ellipse-11 {
+  background-color: #fbda29;
+  border-radius: 8.23px/8.19px;
+  height: 16px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 16px;
+}
+
+.active-dispute .indicator-for-letter-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 222px;
+  position: absolute;
+  top: 188px;
+}
+
+.active-dispute .ellipse-12 {
+  background-color: #cf202e;
+  border-radius: 8.23px/8.19px;
+  height: 16px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 16px;
+}
+
+.active-dispute .indicator-for-letter-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 320px;
+  position: absolute;
+  top: 94px;
+}
+
+.active-dispute .ellipse-13 {
+  background-color: #9d4edd;
+  border-radius: 8.23px/8.19px;
+  height: 16px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 16px;
+}
+
+.active-dispute .indicator-for-letter-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 34px;
+  position: absolute;
+  top: 337px;
+}
+
+.active-dispute .ellipse-14 {
+  background-color: #53e60e;
+  border-radius: 8.23px/8.19px;
+  height: 16px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 16px;
+}
+
+.active-dispute .indicator-for-letter-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 430px;
+  position: absolute;
+  top: 21px;
+}
+
+.active-dispute .ellipse-15 {
+  background-color: #2684ff;
+  border-radius: 8.23px/8.19px;
+  height: 16px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 16px;
+}
+
+.active-dispute .tag-with-icon-on {
+  height: 387px;
+  left: 0;
+  position: absolute;
+  top: 47px;
+  width: 299px;
+}
+
+.active-dispute .overlap-20 {
+  height: 387px;
+  left: 38px;
+  position: relative;
+  width: 129px;
+}
+
+.active-dispute .line-11 {
+  height: 376px;
+  left: 110px;
+  position: absolute;
+  top: 11px;
+  width: 3px;
+}
+
+.active-dispute .analysing {
+  height: 41px;
+  left: 0;
+  position: absolute;
+  top: 80px;
+  width: 128px;
+}
+
+.active-dispute .sent-icon {
+  height: 41px;
+  left: 94px;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.active-dispute .overlap-group-10 {
+  height: 41px;
+  position: relative;
+}
+
+.active-dispute .rectangle-19 {
+  background-color: #33333317;
+  border-radius: 10px;
+  filter: blur(40px);
+  height: 21px;
+  left: 5px;
+  position: absolute;
+  top: 20px;
+  width: 22px;
+}
+
+.active-dispute .rectangle-20 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 31px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.active-dispute .message {
+  height: 15px;
+  left: 9px;
+  position: absolute;
+  top: 8px;
+  width: 15px;
+}
+
+.active-dispute .client-response {
+  color: #090808;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.4px;
+  line-height: 11.3px;
+  position: absolute;
+  top: 11px;
+  white-space: nowrap;
+  width: 91px;
+}
+
+.active-dispute .analysing-2 {
+  height: 41px;
+  left: 18px;
+  position: absolute;
+  top: 240px;
+  width: 109px;
+}
+
+.active-dispute .sent-icon-2 {
+  height: 41px;
+  left: 75px;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.active-dispute .search {
+  height: 12px;
+  left: 10px;
+  position: absolute;
+  top: 9px;
+  width: 12px;
+}
+
+.active-dispute .text-wrapper-19 {
+  color: #090808;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.4px;
+  line-height: 11.3px;
+  position: absolute;
+  top: 11px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.active-dispute .item-deleted {
+  height: 41px;
+  left: 9px;
+  position: absolute;
+  top: 160px;
+  width: 118px;
+}
+
+.active-dispute .sent-icon-3 {
+  height: 41px;
+  left: 84px;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.active-dispute .delete {
+  height: 15px;
+  left: 9px;
+  position: absolute;
+  top: 8px;
+  width: 12px;
+}
+
+.active-dispute .item-deleted-2 {
+  color: #080808;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.4px;
+  line-height: 11.3px;
+  position: absolute;
+  top: 11px;
+  white-space: nowrap;
+  width: 73px;
+}
+
+.active-dispute .recieved {
+  height: 41px;
+  left: 18px;
+  position: absolute;
+  top: 320px;
+  width: 110px;
+}
+
+.active-dispute .sent-icon-4 {
+  height: 41px;
+  left: 76px;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.active-dispute .pin {
+  height: 13px;
+  left: 10px;
+  position: absolute;
+  top: 9px;
+  width: 12px;
+}
+
+.active-dispute .letter-sent {
+  height: 41px;
+  left: 15px;
+  position: absolute;
+  top: 0;
+  width: 114px;
+}
+
+.active-dispute .sent-icon-5 {
+  height: 41px;
+  left: 80px;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.active-dispute .send {
+  height: 14px;
+  left: 9px;
+  position: absolute;
+  top: 9px;
+  width: 13px;
+}
+
+.active-dispute .letter-sent-2 {
+  color: #000000;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.4px;
+  line-height: 11.3px;
+  position: absolute;
+  top: 11px;
+  white-space: nowrap;
+  width: 62px;
+}
+
+.active-dispute .letter-progress {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 60px;
+  letter-spacing: 0.96px;
+  line-height: 27.2px;
+  position: absolute;
+  top: 43px;
+  white-space: nowrap;
+  width: 213px;
+}
+
+.active-dispute .text-wrapper-20 {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 60px;
+  letter-spacing: 0.4px;
+  line-height: 11.3px;
+  position: absolute;
+  top: 77px;
+  white-space: nowrap;
+  width: 69px;
+}
+
+.active-dispute .tool-tip {
+  height: 66px;
+  left: 362px;
+  position: absolute;
+  top: 240px;
+  width: 95px;
+}
+
+.active-dispute .tooltip-date-wrapper {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6530d576c794a43bb130d28a/img/tooltip-date-shadow@2x.png);
+  background-size: 100% 100%;
+  height: 125px;
+  left: -25px;
+  position: relative;
+  top: -21px;
+  width: 144px;
+}
+
+.active-dispute .tooltip-date {
+  height: 66px;
+  left: 25px;
+  position: relative;
+  top: 21px;
+  width: 99px;
+}
+
+.active-dispute .overlap-group-11 {
+  height: 68px;
+  left: -1px;
+  position: relative;
+  top: -1px;
+  width: 97px;
+}
+
+.active-dispute .rectangle-21 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #f2f2f3e6;
+  border-radius: 3px;
+  height: 27px;
+  left: 41px;
+  position: absolute;
+  top: 41px;
+  width: 13px;
+}
+
+.active-dispute .rectangle-22 {
+  background-color: #042a3d;
+  border: 1px solid;
+  border-color: #f2f2f3e6;
+  border-radius: 5px;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 97px;
+}
+
+.active-dispute .element-aug {
+  color: #ffffff;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 500;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  white-space: nowrap;
+  width: 76px;
+}
+
+.active-dispute .deleted {
+  color: #ea6a7a;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 700;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 29px;
+  white-space: nowrap;
+  width: 43px;
+}
+
+.active-dispute .tool-tip-2 {
+  height: 66px;
+  left: 564px;
+  position: absolute;
+  top: 77px;
+  width: 95px;
+}
+
+.active-dispute .overlap-21 {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6530d6d3af358a0d46fe19d8/img/tooltip-date-shadow-1@2x.png);
+  background-size: 100% 100%;
+  height: 125px;
+  left: -25px;
+  position: relative;
+  top: -21px;
+  width: 144px;
+}
+
+.active-dispute .sent-3 {
+  color: #50d810;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 700;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 29px;
+  white-space: nowrap;
+  width: 27px;
+}
+
+.active-dispute .rectangle-23 {
+  border-radius: 21px;
+  height: 368px;
+  left: 51px;
+  position: absolute;
+  top: 1433px;
+  width: 820px;
+}
+
+.active-dispute .rectangle-24 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #d9d9d9;
+  height: 65px;
+  left: 91px;
+  position: absolute;
+  top: 1510px;
+  width: 780px;
+}
+
+.active-dispute .line-12 {
+  height: 1px;
+  left: 21px;
+  object-fit: cover;
+  position: absolute;
+  top: 1411px;
+  width: 880px;
+}
+
+.active-dispute .rectangle-25 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.52) 0%, rgb(255, 255, 255) 100%);
+  filter: blur(99px);
+  height: 101px;
+  left: 0;
+  position: absolute;
+  top: 2082px;
+  width: 941px;
+}
+
+.active-dispute .overlap-22 {
+  background-color: #f4f6f8;
+  border-radius: 30px;
+  height: 72px;
+  left: 1321px;
+  position: absolute;
+  top: 95px;
+  width: 470px;
+}
+
+.active-dispute .search-2 {
+  height: 22px;
+  left: 58px;
+  position: absolute;
+  top: 25px;
+  width: 23px;
+}
+
+.active-dispute .text-wrapper-21 {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 105px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 27px;
+  white-space: nowrap;
+  width: 62px;
+}
+
+.active-dispute .find-dispute-wrapper {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(19.13, 127.88, 255) 0%, rgba(142, 202, 230, 0.9) 100%);
+  border-radius: 23px;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 305px;
+  overflow: hidden;
+  padding: 22px 23px;
+  position: absolute;
+  top: 7px;
+}
+
+.active-dispute .find-dispute {
+  color: #ffffff;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.active-dispute .overlap-23 {
+  background-color: #fffdfd;
+  border-radius: 30px;
+  height: 420px;
+  left: 1432px;
+  position: absolute;
+  top: 405px;
+  width: 416px;
+}
+
+.active-dispute .recent-activity {
+  color: #000000;
+  font-family: "Spartan", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 39px;
+  white-space: nowrap;
+  width: 187px;
+}
+
+.active-dispute .group-9 {
+  height: 62px;
+  left: 58px;
+  position: absolute;
+  top: 95px;
+  width: 277px;
+}
+
+.active-dispute .group-10 {
+  height: 62px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 62px;
+}
+
+.active-dispute .ellipse-wrapper {
+  background-color: #f2faffe6;
+  border: 1px solid;
+  border-color: #e4f6ffe6;
+  border-radius: 32px;
+  height: 64px;
+  left: -1px;
+  position: relative;
+  top: -1px;
+  width: 64px;
+}
+
+.active-dispute .ellipse-16 {
+  height: 52px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 52px;
+}
+
+.active-dispute .group-11 {
+  height: 30px;
+  left: 88px;
+  position: absolute;
+  top: 16px;
+  width: 190px;
+}
+
+.active-dispute .david-blackman {
+  color: #000000;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 138px;
+}
+
+.active-dispute .group-12 {
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 24px;
+  width: 194px;
+}
+
+.active-dispute .text-wrapper-22 {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 68px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 37px;
+}
+
+.active-dispute .text-wrapper-23 {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 72px;
+}
+
+.active-dispute .text-wrapper-24 {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.active-dispute .group-13 {
+  height: 62px;
+  left: 58px;
+  position: absolute;
+  top: 190px;
+  width: 277px;
+}
+
+.active-dispute .group-14 {
+  height: 62px;
+  left: 58px;
+  position: absolute;
+  top: 285px;
+  width: 277px;
+}
+
+.active-dispute .upcoming-aask-frame {
+  height: 475px;
+  left: 1438px;
+  position: absolute;
+  top: 866px;
+  width: 416px;
+}
+
+.active-dispute .overlap-24 {
+  background-color: #fffdfd;
+  border-radius: 30px;
+  height: 484px;
+  position: relative;
+}
+
+.active-dispute .upcoming-tasks {
+  color: #161616;
+  font-family: "Spartan", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 31px;
+  letter-spacing: 0.6px;
+  line-height: 17px;
+  position: absolute;
+  top: 33px;
+  white-space: nowrap;
+  width: 138px;
+}
+
+.active-dispute .see-all-button {
+  height: 35px;
+  left: 300px;
+  position: absolute;
+  top: 23px;
+  width: 88px;
+}
+
+.active-dispute .overlap-group-12 {
+  border-radius: 18px;
+  height: 37px;
+  left: -1px;
+  position: relative;
+  top: -1px;
+}
+
+.active-dispute .text-wrapper-25 {
+  color: #161616;
+  font-family: "Spartan", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  left: 18px;
+  letter-spacing: 0.52px;
+  line-height: 14.8px;
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+  width: 51px;
+}
+
+.active-dispute .rectangle-26 {
+  border: 1px solid;
+  border-color: #d3d3d3;
+  border-radius: 18px;
+  height: 37px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 88px;
+}
+
+.active-dispute .payment-task {
+  background-color: #d6edf740;
+  border-radius: 30px;
+  height: 99px;
+  left: 18px;
+  position: absolute;
+  top: 80px;
+  width: 378px;
+}
+
+.active-dispute .request-payment-task {
+  height: 67px;
+  left: 34px;
+  position: relative;
+  top: 18px;
+  width: 310px;
+}
+
+.active-dispute .group-15 {
+  height: 25px;
+  left: 54px;
+  position: absolute;
+  top: 41px;
+  width: 116px;
+}
+
+.active-dispute .request-payment-wrapper {
+  background-color: #dbf0faf2;
+  border-radius: 30px;
+  height: 25px;
+  position: relative;
+  width: 114px;
+}
+
+.active-dispute .request-payment {
+  color: #6376fb;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 500;
+  left: 8px;
+  letter-spacing: 0.4px;
+  line-height: 11.3px;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+  width: 98px;
+}
+
+.active-dispute .group-16 {
+  background-color: #bdc4ff;
+  border-radius: 12.96px/13.04px;
+  filter: blur(9px);
+  height: 26px;
+  left: 284px;
+  position: absolute;
+  top: 5px;
+  width: 26px;
+}
+
+.active-dispute .ellipse-17 {
+  background-color: #2f48fd;
+  border-radius: 8.1px/8.15px;
+  height: 16px;
+  left: 5px;
+  position: relative;
+  top: 5px;
+  width: 16px;
+}
+
+.active-dispute .group-17 {
+  height: 37px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 39px;
+}
+
+.active-dispute .g-h-wrapper {
+  background-color: #def9ff;
+  border-radius: 18.34px/18.32px;
+  height: 37px;
+  position: relative;
+  width: 37px;
+}
+
+.active-dispute .g-h {
+  color: #3f75ff;
+  font-family: "Spartan", Helvetica;
+  font-size: 11px;
+  font-weight: 600;
+  left: 6px;
+  letter-spacing: 0.44px;
+  line-height: 12.5px;
+  position: absolute;
+  top: 14px;
+  white-space: nowrap;
+  width: 24px;
+}
+
+.active-dispute .group-18 {
+  height: 27px;
+  left: 54px;
+  position: absolute;
+  top: 5px;
+  width: 164px;
+}
+
+.active-dispute .gabriel-hamilgton {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0.52px;
+  line-height: 14.8px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 141px;
+}
+
+.active-dispute .text-wrapper-26 {
+  color: #aeaeae;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  white-space: nowrap;
+  width: 160px;
+}
+
+.active-dispute .request-payment-task-wrapper {
+  background-color: #ff9f1c17;
+  border-radius: 30px;
+  height: 99px;
+  left: 18px;
+  position: absolute;
+  top: 209px;
+  width: 378px;
+}
+
+.active-dispute .update-setting-wrapper {
+  background-color: #ffe2bcd9;
+  border-radius: 30px;
+  height: 25px;
+  position: relative;
+  width: 114px;
+}
+
+.active-dispute .update-setting {
+  color: #f1900b;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 500;
+  left: 12px;
+  letter-spacing: 0.4px;
+  line-height: 11.3px;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+  width: 89px;
+}
+
+.active-dispute .group-19 {
+  background-color: #ffd194;
+  border-radius: 12.96px/13.04px;
+  filter: blur(9px);
+  height: 26px;
+  left: 284px;
+  position: absolute;
+  top: 5px;
+  width: 26px;
+}
+
+.active-dispute .ellipse-18 {
+  background-color: #ff9f1c;
+  border-radius: 8.1px/8.15px;
+  height: 16px;
+  left: 5px;
+  position: relative;
+  top: 5px;
+  width: 16px;
+}
+
+.active-dispute .overlap-25 {
+  background-color: #ffb44d3b;
+  border-radius: 18.34px/18.32px;
+  height: 37px;
+  position: relative;
+  width: 37px;
+}
+
+.active-dispute .g-h-2 {
+  color: #ff9f1c;
+  font-family: "Spartan", Helvetica;
+  font-size: 11px;
+  font-weight: 600;
+  left: 6px;
+  letter-spacing: 0.44px;
+  line-height: 12.5px;
+  position: absolute;
+  top: 14px;
+  white-space: nowrap;
+  width: 24px;
+}
+
+.active-dispute .payment-task-2 {
+  background-color: #faff182e;
+  border-radius: 30px;
+  height: 99px;
+  left: 19px;
+  position: absolute;
+  top: 338px;
+  width: 378px;
+}
+
+.active-dispute .get-response-wrapper {
+  background-color: #ffd50021;
+  border-radius: 30px;
+  height: 25px;
+  position: relative;
+  width: 114px;
+}
+
+.active-dispute .get-response {
+  color: #e7c206;
+  font-family: "Spartan", Helvetica;
+  font-size: 10px;
+  font-weight: 500;
+  left: 17px;
+  letter-spacing: 0.4px;
+  line-height: 11.3px;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+  width: 80px;
+}
+
+.active-dispute .group-20 {
+  background-color: #ffe76f;
+  border-radius: 12.96px/13.04px;
+  filter: blur(9px);
+  height: 26px;
+  left: 284px;
+  position: absolute;
+  top: 5px;
+  width: 26px;
+}
+
+.active-dispute .ellipse-19 {
+  background-color: #ffd500;
+  border-radius: 8.1px/8.15px;
+  height: 16px;
+  left: 5px;
+  position: relative;
+  top: 5px;
+  width: 16px;
+}
+
+.active-dispute .overlap-26 {
+  background-color: #ffd50029;
+  border-radius: 18.34px/18.32px;
+  height: 37px;
+  position: relative;
+  width: 37px;
+}
+
+.active-dispute .g-h-3 {
+  color: #e4bf04;
+  font-family: "Spartan", Helvetica;
+  font-size: 11px;
+  font-weight: 600;
+  left: 6px;
+  letter-spacing: 0.44px;
+  line-height: 12.5px;
+  position: absolute;
+  top: 14px;
+  white-space: nowrap;
+  width: 24px;
+}
+
+.active-dispute .overlap-27 {
+  background-color: #fcfcfc;
+  border-radius: 0px 30px 30px 0px;
+  height: 2558px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 346px;
+}
+
+.active-dispute .team-page-and-icon {
+  align-items: center;
+  display: inline-flex;
+  gap: 27px;
+  left: 58px;
+  padding: 0px 10px;
+  position: absolute;
+  top: 377px;
+}
+
+.active-dispute .div-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.active-dispute .rectangle-27 {
+  background-color: #fdfcfc;
+  border-radius: 15px;
+  height: 52px;
+  position: relative;
+  width: 54px;
+}
+
+.active-dispute .hicon-outline-group {
+  height: 35px !important;
+  left: 10px !important;
+  position: absolute !important;
+  top: 8px !important;
+  width: 35px !important;
+}
+
+.active-dispute .team {
+  color: #686565;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  height: 15.8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 50px;
+}
+
+.active-dispute .team-page-and-icon-2 {
+  align-items: center;
+  display: inline-flex;
+  gap: 27px;
+  left: 58px;
+  padding: 0px 10px;
+  position: absolute;
+  top: 461px;
+}
+
+.active-dispute .team-icon {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.active-dispute .hicon-outline {
+  height: 33px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 33px;
+}
+
+.active-dispute .active-user {
+  color: #686565;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  height: 13.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 100px;
+}
+
+.active-dispute .team-page-and-icon-3 {
+  align-items: center;
+  display: inline-flex;
+  gap: 27px;
+  left: 58px;
+  padding: 0px 10px;
+  position: absolute;
+  top: 545px;
+}
+
+.active-dispute .hicon-outline-add {
+  height: 33px;
+  left: 10px;
+  position: absolute;
+  top: 9px;
+  width: 33px;
+}
+
+.active-dispute .active-disputes {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  height: 14.8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 136px;
+}
+
+.active-dispute .overlap-28 {
+  height: 139px;
+  left: 24px;
+  position: absolute;
+  top: 79px;
+  width: 299px;
+}
+
+.active-dispute .rectangle-28 {
+  background-color: #f4f5f7;
+  border-radius: 22px;
+  height: 135px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 299px;
+}
+
+.active-dispute .frame-18 {
+  align-items: center;
+  display: inline-flex;
+  gap: 31px;
+  left: 30px;
+  position: absolute;
+  top: 35px;
+}
+
+.active-dispute .ellipse-20 {
+  height: 72px;
+  position: relative;
+  width: 70px;
+}
+
+.active-dispute .julie-marcos {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 137px;
+}
+
+.active-dispute .managing-director {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 10.59px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 121px;
+}
+
+.active-dispute .ellipse-21 {
+  height: 19px;
+  left: 279px;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.active-dispute .overlap-29 {
+  border-radius: 29px;
+  height: 60px;
+  left: 1111px;
+  position: absolute;
+  top: 98px;
+  width: 174px;
+}
+
+.active-dispute .frame-19 {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  left: 18px;
+  position: absolute;
+  top: 20px;
+}
+
+.active-dispute .sort-by-filter {
+  color: #727272;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 13.97px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 108px;
+}
+
+.active-dispute .filter-6 {
+  height: 19.5px;
+  position: relative;
+  width: 19.5px;
+}
+
+.active-dispute .rectangle-29 {
+  border: 1px solid;
+  border-color: #d8d8d8;
+  border-radius: 29px;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 174px;
+}
+
+.active-dispute .actvie-members {
+  background-color: #f4f5f7;
+  border-radius: 22px;
+  height: 135px;
+  left: 1248px;
+  position: absolute;
+  top: 231px;
+  width: 336px;
+}
+
+.active-dispute .active-members-and {
+  height: 66px;
+  left: 25px;
+  position: relative;
+  top: 35px;
+  width: 285px;
+}
+
+.active-dispute .frame-20 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.active-dispute .active-members {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 11.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 124.25px;
+}
+
+.active-dispute .text-wrapper-27 {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  height: 17.13px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 59.05px;
+}
+
+.active-dispute .text-wrapper-28 {
+  color: #a2a2a2;
+  font-family: "Spartan", Helvetica;
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: 143.1px;
+}
+
+.active-dispute .frame-21 {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 162px;
+  position: absolute;
+  top: 26px;
+}
+
+.active-dispute .frame-22 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8.86px;
+  position: relative;
+}
+
+.active-dispute .ellipse-22 {
+  background-color: #ffffff;
+  border-radius: 15.51px/15.24px;
+  height: 30.48px;
+  position: relative;
+  width: 31.02px;
+}
+
+.active-dispute .ellipse-23 {
+  height: 29px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 28px;
+}
+
+.active-dispute .frame-23 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8.86px;
+  margin-left: -8px;
+  position: relative;
+}
+
+.active-dispute .ellipse-24 {
+  height: 29px;
+  left: 2px;
+  position: absolute;
+  top: 1px;
+  width: 28px;
+}
+
+.active-dispute .total-subscriptions {
+  background-color: #f4f5f7;
+  border-radius: 22px;
+  height: 135px;
+  left: 837px;
+  position: absolute;
+  top: 231px;
+  width: 336px;
+}
+
+.active-dispute .graph-text-gro {
+  height: 66px;
+  left: 35px;
+  position: relative;
+  top: 38px;
+  width: 265px;
+}
+
+.active-dispute .total-subscription {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 11.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 133.34px;
+}
+
+.active-dispute .frame-24 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+}
+
+.active-dispute .text-wrapper-29 {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  height: 24.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 124.25px;
+}
+
+.active-dispute .graph-rate {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  left: 191px;
+  position: absolute;
+  top: 6px;
+}
+
+.active-dispute .small-graph {
+  height: 46.57px;
+  position: relative;
+  width: 74.51px;
+}
+
+.active-dispute .point-wrapper {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6530d576c794a43bb130d28a/img/line-84.svg);
+  background-size: 100% 100%;
+  height: 79px;
+  left: -17px;
+  position: relative;
+  top: -6px;
+  width: 106px;
+}
+
+.active-dispute .point {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 80px;
+  position: relative;
+  top: 6px;
+}
+
+.active-dispute .ellipse-25 {
+  background-color: #ffffff;
+  border-radius: 4.45px/4.23px;
+  box-shadow: 0px 4px 12px #33333317;
+  height: 8.45px;
+  position: relative;
+  width: 8.9px;
+}
+
+.active-dispute .ellipse-26 {
+  background-color: #44cc04;
+  border-radius: 2.24px/2.13px;
+  height: 4px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+
+.active-dispute .text-wrapper-30 {
+  color: #50d810;
+  font-family: "Spartan", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  height: 12.58px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -4px;
+  position: relative;
+  white-space: nowrap;
+  width: 41.23px;
+}
+
+.active-dispute .total-clients {
+  background-color: #f4f5f7;
+  border-radius: 22px;
+  height: 135px;
+  left: 426px;
+  position: absolute;
+  top: 231px;
+  width: 336px;
+}
+
+.active-dispute .graph-text-gro-2 {
+  height: 66px;
+  left: 32px;
+  position: relative;
+  top: 35px;
+  width: 273px;
+}
+
+.active-dispute .graph-rate-2 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  left: 198px;
+  position: absolute;
+  top: 6px;
+}
+
+.active-dispute .overlap-group-13 {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6530d576c794a43bb130d28a/img/line-84-1.svg);
+  background-size: 100% 100%;
+  height: 79px;
+  left: -17px;
+  position: relative;
+  top: -6px;
+  width: 106px;
+}
+
+.active-dispute .total-clients-2 {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 11.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 98.75px;
+}
+
+.active-dispute .active-disputes-2 {
+  color: #686565;
+  font-family: "Spartan", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  left: 407px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 99px;
+  white-space: nowrap;
+  width: 537px;
+}
+
+.active-dispute .scroll-bar {
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0px 0px 15px #00000017;
+  height: 1350px;
+  left: 1377px;
+  position: absolute;
+  top: 1127px;
+  width: 21px;
+}
+
+.active-dispute .rectangle-30 {
+  background-color: #137fff;
+  border-radius: 18px;
+  box-shadow: 0px 4px 7px #075abb38;
+  height: 87px;
+  left: 6px;
+  position: relative;
+  top: 47px;
+  width: 10px;
+}

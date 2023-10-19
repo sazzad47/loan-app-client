@@ -5,7 +5,7 @@ import { useState } from "react";
 
 
 import UsersList from "./components/admin/UsersList";
-import DisputesPage from "./components/admin/DisputesPage";
+import DisputesPage from "./components/activeDispute/screens/Index/Index";
 import AdminLogin from "./components/admin/AdminLogin";
 import { Routes, Route } from "react-router-dom";
 import PrivateRoute from "./PrivateRoute";

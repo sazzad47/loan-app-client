@@ -1,4 +1,4 @@
-.index {
+.add-user {
   background-color: #f7f7f7;
   display: flex;
   flex-direction: row;
@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.index .div {
+.add-user .div {
   background-color: #f7f7f7;
   height: 1899px;
   overflow: hidden;
@@ -14,7 +14,7 @@
   width: 1950px;
 }
 
-.index .overlap {
+.add-user .overlap {
   height: 1899px;
   left: 0;
   position: absolute;
@@ -22,7 +22,7 @@
   width: 1907px;
 }
 
-.index .text-wrapper {
+.add-user .text-wrapper {
   color: #686565;
   font-family: "Spartan", Helvetica;
   font-size: 64px;
@@ -37,7 +37,7 @@
   width: 497px;
 }
 
-.index .rectangle {
+.add-user .rectangle {
   background-color: #ffffff;
   border: 1px solid;
   border-color: #e8e6e6;
@@ -49,7 +49,7 @@
   width: 1461px;
 }
 
-.index .table-footer {
+.add-user .table-footer {
   align-items: center;
   display: flex;
   gap: 26px;
@@ -62,7 +62,7 @@
   width: 1675px;
 }
 
-.index .container {
+.add-user .container {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -70,7 +70,7 @@
   position: relative;
 }
 
-.index .rows-per-page {
+.add-user .rows-per-page {
   color: #3a3541ad;
   font-family: var(--dark-typography-body-2-font-family);
   font-size: var(--dark-typography-body-2-font-size);
@@ -83,14 +83,14 @@
   width: fit-content;
 }
 
-.index .page {
+.add-user .page {
   height: 24px;
   margin-right: -2px;
   position: relative;
   width: 40px;
 }
 
-.index .element {
+.add-user .element {
   color: #3a3541de;
   font-family: var(--dark-typography-body-2-font-family);
   font-size: var(--dark-typography-body-2-font-size);
@@ -104,7 +104,7 @@
   white-space: nowrap;
 }
 
-.index .filled-navigation {
+.add-user .filled-navigation {
   height: 24px;
   left: 14px;
   position: absolute;
@@ -112,7 +112,7 @@
   width: 24px;
 }
 
-.index .element-of {
+.add-user .element-of {
   color: #3a3541de;
   font-family: var(--dark-typography-body-2-font-family);
   font-size: var(--dark-typography-body-2-font-size);
@@ -125,13 +125,13 @@
   width: fit-content;
 }
 
-.index .navigation {
+.add-user .navigation {
   height: 40px;
   position: relative;
   width: 88px;
 }
 
-.index .frame {
+.add-user .frame {
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
@@ -143,7 +143,7 @@
   width: 1455px;
 }
 
-.index .frame-2 {
+.add-user .frame-2 {
   align-items: center;
   background-color: #f4f4f4;
   border-radius: 10px 0px 0px 0px;
@@ -156,7 +156,7 @@
   width: 218px;
 }
 
-.index .rectangle-2 {
+.add-user .rectangle-2 {
   border: 1px solid;
   border-color: #919191;
   border-radius: 2px;
@@ -167,7 +167,7 @@
   width: 20.75px;
 }
 
-.index .text-wrapper-2 {
+.add-user .text-wrapper-2 {
   color: #333333;
   font-family: "Spartan", Helvetica;
   font-size: 12px;
@@ -181,7 +181,7 @@
   width: fit-content;
 }
 
-.index .frame-3 {
+.add-user .frame-3 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -191,7 +191,7 @@
   width: 217px;
 }
 
-.index .email-wrapper {
+.add-user .email-wrapper {
   align-items: center;
   background-color: #f4f4f4;
   display: flex;
@@ -204,7 +204,7 @@
   width: 229px;
 }
 
-.index .line {
+.add-user .line {
   height: 15px;
   left: 0;
   object-fit: cover;
@@ -213,7 +213,7 @@
   width: 1px;
 }
 
-.index .frame-4 {
+.add-user .frame-4 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -224,7 +224,7 @@
   width: 175px;
 }
 
-.index .passwords-wrapper {
+.add-user .passwords-wrapper {
   align-items: center;
   background-color: #f4f4f4;
   display: flex;
@@ -238,7 +238,7 @@
   width: 185px;
 }
 
-.index .passwords {
+.add-user .passwords {
   color: #333333;
   font-family: "Spartan", Helvetica;
   font-size: 12px;
@@ -251,7 +251,7 @@
   width: 87px;
 }
 
-.index .frame-5 {
+.add-user .frame-5 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -261,7 +261,7 @@
   width: 200px;
 }
 
-.index .phone-number-wrapper {
+.add-user .phone-number-wrapper {
   align-items: center;
   background-color: #f4f4f4;
   display: flex;
@@ -273,7 +273,7 @@
   width: 186px;
 }
 
-.index .phone-number {
+.add-user .phone-number {
   color: #333333;
   font-family: "Spartan", Helvetica;
   font-size: 12px;
@@ -289,7 +289,7 @@
   width: fit-content;
 }
 
-.index .frame-6 {
+.add-user .frame-6 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -299,7 +299,7 @@
   width: 152px;
 }
 
-.index .city-wrapper {
+.add-user .city-wrapper {
   align-items: center;
   background-color: #f4f4f4;
   display: flex;
@@ -312,7 +312,7 @@
   width: 165px;
 }
 
-.index .city {
+.add-user .city {
   color: #333333;
   font-family: "Spartan", Helvetica;
   font-size: 12px;
@@ -325,7 +325,7 @@
   width: 40px;
 }
 
-.index .frame-7 {
+.add-user .frame-7 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -335,7 +335,7 @@
   width: 133px;
 }
 
-.index .state-wrapper {
+.add-user .state-wrapper {
   align-items: center;
   background-color: #f4f4f4;
   display: flex;
@@ -348,7 +348,7 @@
   width: 162px;
 }
 
-.index .frame-8 {
+.add-user .frame-8 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -358,7 +358,7 @@
   width: 134px;
 }
 
-.index .zip-code-wrapper {
+.add-user .zip-code-wrapper {
   align-items: center;
   background-color: #f4f4f4;
   display: flex;
@@ -371,7 +371,7 @@
   width: 175px;
 }
 
-.index .frame-9 {
+.add-user .frame-9 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -382,7 +382,7 @@
   width: 149px;
 }
 
-.index .ss-number-wrapper {
+.add-user .ss-number-wrapper {
   align-items: center;
   background-color: #f4f4f4;
   display: flex;
@@ -395,7 +395,7 @@
   width: 152px;
 }
 
-.index .ss-number {
+.add-user .ss-number {
   color: #333333;
   font-family: "Spartan", Helvetica;
   font-size: 12px;
@@ -411,7 +411,7 @@
   width: fit-content;
 }
 
-.index .frame-10 {
+.add-user .frame-10 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -422,7 +422,7 @@
   width: 189px;
 }
 
-.index .action-required-wrapper {
+.add-user .action-required-wrapper {
   align-items: center;
   background-color: #f4f4f4;
   border-radius: 0px 10px 0px 0px;
@@ -437,7 +437,7 @@
   width: 189px;
 }
 
-.index .action-required {
+.add-user .action-required {
   color: #333333;
   font-family: "Spartan", Helvetica;
   font-size: 12px;
@@ -452,7 +452,7 @@
   width: fit-content;
 }
 
-.index .user {
+.add-user .user {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -463,7 +463,7 @@
   width: 1459px;
 }
 
-.index .navbar-wrapper {
+.add-user .navbar-wrapper {
   align-items: flex-start;
   background-color: #fdfdfd;
   display: flex;
@@ -473,7 +473,7 @@
   width: 1448px;
 }
 
-.index .navbar {
+.add-user .navbar {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -484,7 +484,7 @@
   width: 1453px;
 }
 
-.index .rectangle-3 {
+.add-user .rectangle-3 {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-color: #e8e8e8;
@@ -493,7 +493,7 @@
   width: 1453px;
 }
 
-.index .rectangle-4 {
+.add-user .rectangle-4 {
   border: 1px solid;
   border-color: #d9d9d9;
   border-radius: 2px;
@@ -504,7 +504,7 @@
   width: 21px;
 }
 
-.index .tashanda-powell {
+.add-user .tashanda-powell {
   color: #727272;
   font-family: "Spartan", Helvetica;
   font-size: 13px;
@@ -518,7 +518,7 @@
   width: 117px;
 }
 
-.index .text-wrapper-3 {
+.add-user .text-wrapper-3 {
   color: #727272;
   font-family: "Spartan", Helvetica;
   font-size: 13px;
@@ -532,7 +532,7 @@
   width: 57px;
 }
 
-.index .text-wrapper-4 {
+.add-user .text-wrapper-4 {
   color: #727272;
   font-family: "Spartan", Helvetica;
   font-size: 13px;
@@ -546,7 +546,7 @@
   width: 93px;
 }
 
-.index .text-wrapper-5 {
+.add-user .text-wrapper-5 {
   color: #727272;
   font-family: "Spartan", Helvetica;
   font-size: 13px;
@@ -560,7 +560,7 @@
   width: 63px;
 }
 
-.index .text-wrapper-6 {
+.add-user .text-wrapper-6 {
   color: #727272;
   font-family: "Spartan", Helvetica;
   font-size: 13px;
@@ -574,7 +574,7 @@
   width: 67px;
 }
 
-.index .text-wrapper-7 {
+.add-user .text-wrapper-7 {
   color: #727272;
   font-family: "Spartan", Helvetica;
   font-size: 13px;
@@ -588,7 +588,7 @@
   width: 36px;
 }
 
-.index .text-wrapper-8 {
+.add-user .text-wrapper-8 {
   color: #727272;
   font-family: "Spartan", Helvetica;
   font-size: 13px;
@@ -602,7 +602,7 @@
   width: 83px;
 }
 
-.index .text-wrapper-9 {
+.add-user .text-wrapper-9 {
   color: #727272;
   font-family: "Spartan", Helvetica;
   font-size: 13px;
@@ -617,7 +617,7 @@
   width: 176px;
 }
 
-.index .img {
+.add-user .img {
   height: 24px;
   left: 1330px;
   position: absolute;
@@ -625,7 +625,7 @@
   width: 89px;
 }
 
-.index .rectangle-5 {
+.add-user .rectangle-5 {
   background-color: #fcfcfc;
   border-radius: 0px 30px 30px 0px;
   height: 1899px;
@@ -635,7 +635,7 @@
   width: 352px;
 }
 
-.index .team-page-and-icon {
+.add-user .team-page-and-icon {
   align-items: center;
   display: inline-flex;
   gap: 27px;
@@ -645,7 +645,7 @@
   top: 377px;
 }
 
-.index .div-2 {
+.add-user .div-2 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -654,7 +654,7 @@
   position: relative;
 }
 
-.index .rectangle-6 {
+.add-user .rectangle-6 {
   background-color: #fdfcfc;
   border-radius: 15px;
   height: 52px;
@@ -662,7 +662,7 @@
   width: 54px;
 }
 
-.index .hicon-outline-group {
+.add-user .hicon-outline-group {
   height: 35px !important;
   left: 10px !important;
   position: absolute !important;
@@ -670,7 +670,7 @@
   width: 35px !important;
 }
 
-.index .team {
+.add-user .team {
   color: #686565;
   font-family: "Spartan", Helvetica;
   font-size: 16px;
@@ -684,7 +684,7 @@
   width: 50px;
 }
 
-.index .team-page-and-icon-2 {
+.add-user .team-page-and-icon-2 {
   align-items: center;
   display: inline-flex;
   gap: 27px;
@@ -694,7 +694,7 @@
   top: 461px;
 }
 
-.index .team-icon {
+.add-user .team-icon {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -704,7 +704,7 @@
   position: relative;
 }
 
-.index .hicon-outline {
+.add-user .hicon-outline {
   height: 33px;
   left: 10px;
   position: absolute;
@@ -712,7 +712,7 @@
   width: 33px;
 }
 
-.index .active-user {
+.add-user .active-user {
   color: #686565;
   font-family: "Spartan", Helvetica;
   font-size: 16px;
@@ -726,7 +726,7 @@
   width: 100px;
 }
 
-.index .team-page-and-icon-3 {
+.add-user .team-page-and-icon-3 {
   align-items: center;
   display: inline-flex;
   gap: 27px;
@@ -736,7 +736,7 @@
   top: 545px;
 }
 
-.index .hicon-outline-add {
+.add-user .hicon-outline-add {
   height: 33px;
   left: 10px;
   position: absolute;
@@ -744,7 +744,7 @@
   width: 33px;
 }
 
-.index .active-disputes {
+.add-user .active-disputes {
   color: #333333;
   font-family: "Spartan", Helvetica;
   font-size: 16px;
@@ -758,7 +758,7 @@
   width: 136px;
 }
 
-.index .rectangle-7 {
+.add-user .rectangle-7 {
   background-color: #f4f5f7;
   border-radius: 22px;
   height: 135px;
@@ -768,7 +768,7 @@
   width: 299px;
 }
 
-.index .frame-11 {
+.add-user .frame-11 {
   align-items: center;
   display: inline-flex;
   gap: 31px;
@@ -777,13 +777,13 @@
   top: 114px;
 }
 
-.index .ellipse {
+.add-user .ellipse {
   height: 72px;
   position: relative;
   width: 70px;
 }
 
-.index .julie-marcos {
+.add-user .julie-marcos {
   color: #333333;
   font-family: "Spartan", Helvetica;
   font-size: 20px;
@@ -798,7 +798,7 @@
   width: 137px;
 }
 
-.index .managing-director {
+.add-user .managing-director {
   color: #a2a2a2;
   font-family: "Spartan", Helvetica;
   font-size: 12px;
@@ -812,7 +812,7 @@
   width: 121px;
 }
 
-.index .edit-or-delete {
+.add-user .edit-or-delete {
   height: 131px;
   left: 1738px;
   position: absolute;
@@ -820,12 +820,12 @@
   width: 170px;
 }
 
-.index .overlap-group {
+.add-user .overlap-group {
   height: 131px;
   position: relative;
 }
 
-.index .rectangle-8 {
+.add-user .rectangle-8 {
   background-color: #7272721a;
   border-radius: 32px;
   filter: blur(42px);
@@ -836,7 +836,7 @@
   width: 161px;
 }
 
-.index .frame-12 {
+.add-user .frame-12 {
   align-items: center;
   display: flex;
   gap: 2px;
@@ -847,7 +847,7 @@
   width: 162px;
 }
 
-.index .rectangle-9 {
+.add-user .rectangle-9 {
   background-color: #fcfcfc;
   border-radius: 27px;
   height: 131px;
@@ -855,7 +855,7 @@
   width: 155px;
 }
 
-.index .frame-13 {
+.add-user .frame-13 {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
@@ -865,7 +865,7 @@
   top: 41px;
 }
 
-.index .text-wrapper-10 {
+.add-user .text-wrapper-10 {
   color: #00b4d8;
   font-family: "Spartan", Helvetica;
   font-size: 16px;
@@ -880,7 +880,7 @@
   width: 34px;
 }
 
-.index .text-wrapper-11 {
+.add-user .text-wrapper-11 {
   color: #ef233c;
   font-family: "Spartan", Helvetica;
   font-size: 16px;
@@ -894,7 +894,7 @@
   width: 56px;
 }
 
-.index .frame-14 {
+.add-user .frame-14 {
   align-items: flex-start;
   display: inline-flex;
   gap: 1005px;
@@ -903,7 +903,7 @@
   top: 1757px;
 }
 
-.index .element-official {
+.add-user .element-official {
   color: #a2a2a2;
   font-family: "Spartan", Helvetica;
   font-size: 14px;
@@ -915,7 +915,7 @@
   width: 343.32px;
 }
 
-.index .span {
+.add-user .span {
   color: #a2a2a2;
   font-family: "Spartan", Helvetica;
   font-size: 14px;
@@ -924,7 +924,7 @@
   line-height: 24px;
 }
 
-.index .text-wrapper-12 {
+.add-user .text-wrapper-12 {
   color: #137fff;
   font-family: "Spartan", Helvetica;
   font-size: 14px;
@@ -938,7 +938,7 @@
   width: 95.55px;
 }
 
-.index .filter {
+.add-user .filter {
   align-items: center;
   border-radius: 6px;
   display: flex;
@@ -951,7 +951,7 @@
   width: 1463px;
 }
 
-.index .filter-2 {
+.add-user .filter-2 {
   align-items: center;
   display: flex;
   gap: 16px;
@@ -960,7 +960,7 @@
   width: 874px;
 }
 
-.index .button {
+.add-user .button {
   align-items: center;
   background-color: #eff6ff;
   border-radius: 5px;
@@ -974,12 +974,12 @@
   width: 112px;
 }
 
-.index .content {
+.add-user .content {
   position: relative;
   width: 2px;
 }
 
-.index .ellipse-2 {
+.add-user .ellipse-2 {
   background-color: #137fff;
   border-radius: 11.75px/10.47px;
   height: 20.94px;
@@ -987,7 +987,7 @@
   width: 23.5px;
 }
 
-.index .text-wrapper-13 {
+.add-user .text-wrapper-13 {
   color: #ffffff;
   font-family: "Inter", Helvetica;
   font-size: 14px;
@@ -1001,7 +1001,7 @@
   width: 17px;
 }
 
-.index .unstyled-button {
+.add-user .unstyled-button {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -1013,7 +1013,7 @@
   width: 59px;
 }
 
-.index .button-wrapper {
+.add-user .button-wrapper {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -1024,7 +1024,7 @@
   width: 59px;
 }
 
-.index .button-2 {
+.add-user .button-2 {
   all: unset;
   box-sizing: border-box;
   color: #137fff;
@@ -1040,7 +1040,7 @@
   width: 59px;
 }
 
-.index .button-3 {
+.add-user .button-3 {
   align-items: center;
   border: 1px solid;
   border-color: #8a8d9380;
@@ -1054,7 +1054,7 @@
   width: 130px;
 }
 
-.index .ellipse-3 {
+.add-user .ellipse-3 {
   background-color: #e8e8e8;
   border-radius: 11.75px/10.47px;
   height: 20.94px;
@@ -1062,7 +1062,7 @@
   width: 23.5px;
 }
 
-.index .text-wrapper-14 {
+.add-user .text-wrapper-14 {
   color: #333333;
   font-family: "Inter", Helvetica;
   font-size: 14px;
@@ -1077,12 +1077,12 @@
   width: 17px;
 }
 
-.index .content-2 {
+.add-user .content-2 {
   position: relative;
   width: 1px;
 }
 
-.index .content-wrapper {
+.add-user .content-wrapper {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -1093,7 +1093,7 @@
   width: 77px;
 }
 
-.index .div-wrapper {
+.add-user .div-wrapper {
   align-items: center;
   display: inline-flex;
   gap: 28px;
@@ -1102,7 +1102,7 @@
   position: relative;
 }
 
-.index .button-4 {
+.add-user .button-4 {
   all: unset;
   box-sizing: border-box;
   color: #8a8d93;
@@ -1116,7 +1116,7 @@
   width: 77px;
 }
 
-.index .filter-3 {
+.add-user .filter-3 {
   align-items: center;
   display: flex;
   gap: 24px;
@@ -1125,7 +1125,7 @@
   width: 489px;
 }
 
-.index .textfield-outlined {
+.add-user .textfield-outlined {
   align-items: flex-start;
   border-radius: 6px;
   display: flex;
@@ -1136,7 +1136,7 @@
   position: relative;
 }
 
-.index .input {
+.add-user .input {
   align-items: flex-start;
   align-self: stretch;
   border: 1px solid;
@@ -1150,7 +1150,7 @@
   width: 100%;
 }
 
-.index .inactive {
+.add-user .inactive {
   align-items: center;
   align-self: stretch;
   display: flex;
@@ -1161,7 +1161,7 @@
   width: 100%;
 }
 
-.index .search-by-name {
+.add-user .search-by-name {
   background: transparent;
   border: none;
   color: #3a354161;
@@ -1176,7 +1176,7 @@
   position: relative;
 }
 
-.index .unstyled-button-wrapper {
+.add-user .unstyled-button-wrapper {
   all: unset;
   align-items: center;
   background-color: #2684ff;
@@ -1191,7 +1191,7 @@
   width: 167px;
 }
 
-.index .unstyled-button-2 {
+.add-user .unstyled-button-2 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1201,7 +1201,7 @@
   position: relative;
 }
 
-.index .button-5 {
+.add-user .button-5 {
   all: unset;
   box-sizing: border-box;
   color: #ffffff;
@@ -1216,14 +1216,14 @@
   width: fit-content;
 }
 
-.index .more-vert {
+.add-user .more-vert {
   height: 24px;
   margin-right: -6px;
   position: relative;
   width: 24px;
 }
 
-.index .frame-15 {
+.add-user .frame-15 {
   height: 15px;
   left: 702px;
   position: absolute;
