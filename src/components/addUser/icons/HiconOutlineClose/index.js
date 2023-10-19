@@ -1,0 +1,1 @@
+export { HiconOutlineClose } from "./HiconOutlineClose";

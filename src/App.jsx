@@ -3,7 +3,7 @@ import Home from "./pages/home";
 import { createContext } from "react";
 import { useState } from "react";
 
-import Admin from "./Admin";
+
 import UsersList from "./components/admin/UsersList";
 import DisputesPage from "./components/admin/DisputesPage";
 import AdminLogin from "./components/admin/AdminLogin";
@@ -14,6 +14,7 @@ import OTPInput from "./components/modals/scoresignup/OTPInput";
 import Reset from "./components/modals/scoresignup/Reset";
 import PersonalAccount from "./pages/personalAccount";
 import PersonalDashboard from "./pages/personalDashboard";
+import AddUser from "./components/addUser/screens/Index";
 
 
 export const RecoveryContext = createContext();
@@ -47,7 +48,7 @@ function App() {
               <Route path="/personal-dashboard" element={<PersonalDashboard />} />
               <Route path="/admin" element={<PrivateRoute />}>
                 <Route path="/admin">
-                  <Route index element={<Admin />} />
+                  <Route index element={<AddUser />} />
                   <Route path="users" element={<UsersList />} />
                   <Route path="disputes" element={<DisputesPage />} />
                 </Route>

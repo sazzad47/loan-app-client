@@ -3,6 +3,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root {
+  --dark-typography-body-2-font-family: "Inter-Regular", Helvetica;
+  --dark-typography-body-2-font-size: 14px;
+  --dark-typography-body-2-font-style: normal;
+  --dark-typography-body-2-font-weight: 400;
+  --dark-typography-body-2-letter-spacing: 0.15000000596046448px;
+  --dark-typography-body-2-line-height: 142.99999475479126%;
+  --light-elevation-3: 0px 4px 8px -4px rgba(58, 53, 65, 0.42);
+  --lineicon: rgba(51, 54, 63, 1);
+  --new-color-for-any-idea: rgba(12, 124, 255, 1);
+}
+
 #editor-contaner {
     width: 100%;
     margin: 20px 0;
