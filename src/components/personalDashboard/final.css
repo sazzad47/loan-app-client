@@ -1,0 +1,184 @@
+.profile {
+  background: linear-gradient(180deg, rgb(235.88, 246.25, 255) 0%, rgb(223.14, 240.43, 255) 100%);
+  border-radius: 49px;
+  height: 584px;
+  width: 443px;
+}
+
+.profile .img {
+  background: linear-gradient(180deg, rgb(153.32, 194.6, 248.63) 0%, rgba(202.94, 238.43, 255, 0.36) 100%);
+  background-image: url("../../assets/defaultUser.png");
+  background-size: 100% 100%;
+  border-radius: 130px/131.87px;
+  box-shadow: 0px 26px 49px #0a7cb747;
+  height: 263px;
+  width: 260px;
+  position: relative;
+}
+
+.profile .img .progress-stars {
+  background-color: #ffffff;
+  border-radius: 31.42px/32.35px;
+  box-shadow: 0px 4px 16px #72727245;
+  position: absolute;
+  height: 65px;
+  width: 63px;
+  top: 100px;
+  left: -20px;
+}
+
+.profile .img .progress-stars .stars-rating {
+  height: 10px;
+  left: 12px;
+  position: absolute;
+  top: 22px;
+  width: 39px;
+}
+
+.profile .img .progress-stars .star {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6523645162f75e9352093e34/img/vector.svg);
+  background-size: 100% 100%;
+  height: 10px;
+  left: 15px;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+.profile .img .progress-stars .star-2 {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6523645162f75e9352093e34/img/vector-1.svg);
+  background-size: 100% 100%;
+  height: 10px;
+  left: 29px;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+.profile .img .progress-stars .star-3 {
+  background-image: url(https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6523645162f75e9352093e34/img/vector-2.svg);
+  background-size: 100% 100%;
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.profile .img .progress-stars .little-progress-bar {
+  background-color: #d6edf7;
+  border-radius: 12px;
+  height: 4px;
+  left: 14px;
+  position: absolute;
+  top: 41px;
+  width: 34px;
+}
+
+.profile .img .progress-stars .rectangle-3 {
+  background-color: #137fff;
+  border-radius: 12px;
+  height: 4px;
+  width: 23px;
+}
+
+.profile .img .little-doc-right {
+  background-color: #ffffff;
+  border-radius: 9px;
+  box-shadow: 0px 11px 18px #33333317;
+  height: 39px;
+  left: 232px;
+  position: absolute;
+  top: 60px;
+  width: 67px;
+}
+
+.profile .img .little-doc-right .overlap-group-3 {
+  background-color: #fafafa;
+  border-radius: 3px;
+  height: 24px;
+  left: 30px;
+  position: absolute;
+  top: 7px;
+  width: 24px;
+}
+
+.profile .img .little-doc-right .rectangle-4 {
+  background-color: #b5e4fae6;
+  border-radius: 8px;
+  height: 3px;
+  left: 3px;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+}
+
+.profile .img .little-doc-right .rectangle-5 {
+  background-color: #e6e6e6;
+  border-radius: 8px;
+  height: 3px;
+  left: 3px;
+  position: absolute;
+  top: 10px;
+  width: 13px;
+}
+
+.profile .img .little-doc-right .rectangle-6 {
+  background-color: #e6e6e6;
+  border-radius: 8px;
+  height: 2px;
+  left: 3px;
+  position: absolute;
+  top: 16px;
+  width: 9px;
+}
+
+.profile .img .little-doc-right .line {
+  height: 12px;
+  left: 7px;
+  position: absolute;
+  top: 13px;
+  width: 16px;
+}
+
+.profile .welcome-back {
+  color: #1e1e1e;
+  font-family: "Spartan", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  width: 161px;
+}
+
+.profile .fred-jonathan {
+  color: #1e1e1e;
+  font-family: "Spartan", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  width: 283px;
+}
+
+.profile .group {
+  height: 64px;
+  width: 266px;
+}
+
+.profile .update-profile-wrapper {
+  background-color: #ffffff;
+  border-radius: 26px;
+  width: 264px;
+  padding: 20px 0;
+  text-align: center;
+  color: #137fff;
+  font-family: "Spartan", Helvetica;
+  font-size: 18.6px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}

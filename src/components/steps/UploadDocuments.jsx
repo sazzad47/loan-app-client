@@ -65,20 +65,22 @@ export default function UploadDocuments() {
         </div>
 
         <div className="flex-1">
+          <div className="h-full flex flex-col">
             <p className="text-start m-0 p-0 text-[#1F1D1D] font-[Spartan] text-[0.7] font-[400]"> Add your documents here </p>
-            <div style={{border: "3px dashed #1380FF"}} className="w-full bg-[#F8FAFD] rounded-[0.75rem] p-[3rem] mt-2">
+            <div style={{border: "3px dashed #1380FF"}} className="w-full flex justify-center items-center bg-[#F8FAFD] rounded-[0.75rem] p-[3rem] my-3 flex-1">
                 <div className="flex flex-col items-center gap-2">
                      <UploadIcon/>
                      <p className="p-0 m-0 text-[#434343] font-[Spartan] text-[1.5em]"> Drop file to upload or <span className="text-[#1380FF] underline cursor-pointer"> browse </span>  </p>
                      <p className="p-0 m-0 text-[#686666] font-[400] font-[Spartan] text-[0.8em]"> Maximum file size <span className="font-[600]"> 5000 pixel </span> </p>
                 </div>
             </div>
-            <div className="w-full flex justify-center mt-3">
+            <div className="w-full flex justify-center items-center pt-3">
                 <div className="flex gap-3">
                     <button className="rounded-[0.3125rem] bg-[#1380FF] px-3 py-2 cursor-pointer text-[#fff] font-[Spartan]"> Upload files </button>
                     <button style={{border: "1px solid #D3D3D3"}} className="px-3 py-2 rounded-[0.3125rem] font-[Spartan] text-[#686666]"> Cancel </button>
                 </div>
             </div>
+          </div>
         </div>
 
       </div>

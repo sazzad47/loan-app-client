@@ -1,0 +1,12 @@
+<svg width="19" height="58" viewBox="0 0 19 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="mark">
+<path id="Rectangle 263" d="M1.61038 6.89732C1.22002 3.99427 3.39754 1.37896 6.32327 1.23689L11.2998 0.995231C14.2676 0.851117 16.7055 3.31163 16.534 6.27799L14.7379 37.3389C14.6046 39.6448 12.7535 41.4789 10.4465 41.5909C8.1029 41.7047 6.06223 40.0056 5.74955 37.6802L1.61038 6.89732Z" fill="#1380FF"/>
+<circle id="Ellipse 139" cx="9.85253" cy="51.0749" r="6.54101" fill="url(#paint0_linear_1403_472)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1403_472" x1="9.85253" y1="44.5339" x2="9.85253" y2="57.6159" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1380FF"/>
+<stop offset="1" stop-color="#88BFFF"/>
+</linearGradient>
+</defs>
+</svg>

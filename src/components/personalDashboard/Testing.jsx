@@ -1,23 +1,25 @@
 import React from "react";
-import { HiconOutlineDown } from "../../components/HiconOutlineDown";
-import { LinearEssentional } from "../../components/LinearEssentional";
-import { LinearMessages } from "../../components/LinearMessages";
-import { HiconOutlineDocumentAlignRight11 } from "../../icons/HiconOutlineDocumentAlignRight11";
-import { HiconOutlineDown21 } from "../../icons/HiconOutlineDown21";
-import { HiconOutlineLeft2 } from "../../icons/HiconOutlineLeft2";
-import { HiconOutlineRight2 } from "../../icons/HiconOutlineRight2";
-import { LinearArrowsRestart } from "../../icons/LinearArrowsRestart";
-import { LinearSearchMinimalisticMagnifer } from "../../icons/LinearSearchMinimalisticMagnifer";
-import { LinearTimeCalendarMinimalistic } from "../../icons/LinearTimeCalendarMinimalistic";
-import { LinearTimeHistory3 } from "../../icons/LinearTimeHistory3";
-import { Mastercard } from "../../icons/Mastercard";
+import { HiconOutlineDown } from "./components/HiconOutlineDown";
+import { LinearEssentional } from "./components/LinearEssentional";
+import { LinearMessages } from "./components/LinearMessages";
+import { HiconOutlineDocumentAlignRight11 } from "./icons/HiconOutlineDocumentAlignRight11";
+import { HiconOutlineDown21 } from "./icons/HiconOutlineDown21";
+import { HiconOutlineLeft2 } from "./icons/HiconOutlineLeft2";
+import { HiconOutlineRight2 } from "./icons/HiconOutlineRight2";
+import { LinearArrowsRestart } from "./icons/LinearArrowsRestart";
+import { LinearSearchMinimalisticMagnifer } from "./icons/LinearSearchMinimalisticMagnifer";
+import { LinearTimeCalendarMinimalistic } from "./icons/LinearTimeCalendarMinimalistic";
+import { LinearTimeHistory3 } from "./icons/LinearTimeHistory3";
+import { Mastercard } from "./icons/Mastercard";
 import "./style.css";
 
-const Index = () => {
+const PersonalDashboard = () => {
   return (
-    <div className="index">
+    <div className="personal-dashboard">
       <div className="div">
-        <div className="profile-image">
+
+        {/* right profile image */}
+        {/* <div className="profile-image">
           <div className="overlap-group">
             <div className="ellipse" />
             <img
@@ -26,8 +28,8 @@ const Index = () => {
               src="https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6523645162f75e9352093e34/img/ellipse-7.svg"
             />
           </div>
-        </div>
-        <div className="frame" />
+        </div> */}
+
         <div className="search">
           <div className="overlap">
             <div className="rectangle" />
@@ -45,7 +47,7 @@ const Index = () => {
         </div>
         <div className="overlap-2">
           <div className="text-wrapper-2">Welcome to your dashboard</div>
-          <div className="rectangle-2" />
+          {/* <div className="rectangle-2" /> */}
           <div className="whole-illustration">
             <div className="overlap-3">
               <div className="custom-illustration">
@@ -977,4 +979,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default PersonalDashboard;

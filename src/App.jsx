@@ -1,4 +1,3 @@
-
 import Home from "./pages/home";
 import { createContext } from "react";
 import { useState } from "react";
@@ -13,7 +12,13 @@ import PrivateRoute from "./PrivateRoute";
 import OTPInput from "./components/modals/scoresignup/OTPInput";
 import Reset from "./components/modals/scoresignup/Reset";
 import PersonalAccount from "./pages/personalAccount";
-import PersonalDashboard from "./pages/personalDashboard";
+
+import Page2 from "./components/personalDashboard/page2";
+import Page3 from "./components/personalDashboard/page3";
+import Page4 from "./components/personalDashboard/page4";
+import Page5 from "./components/personalDashboard/page5";
+import Page6 from "./components/personalDashboard/page6";
+import PersonalDashboard from "./components/personalDashboard/Testing";
 
 
 export const RecoveryContext = createContext();
@@ -44,7 +49,16 @@ function App() {
             <Route path="/">
               <Route index element={elementToDisplay} />
               <Route path="/personal-account" element={<PersonalAccount />} />
-              <Route path="/personal-dashboard" element={<PersonalDashboard />} />
+              <Route path="/personal-dashboard">
+                  <Route index element={<PersonalDashboard />} />
+                  <Route path="page-2" element={<Page2 />} />
+                  <Route path="page-3" element={<Page3 />} />
+                  <Route path="page-4" element={<Page4 />} />
+                  <Route path="page-5" element={<Page5 />} />
+                  <Route path="page-6" element={<Page6 />} />
+                  <Route path="page-7" element={<Page6 />} />
+                  <Route path="page-8" element={<Page6 />} />
+              </Route>
               <Route path="/admin" element={<PrivateRoute />}>
                 <Route path="/admin">
                   <Route index element={<Admin />} />

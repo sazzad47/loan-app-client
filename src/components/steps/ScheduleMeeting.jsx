@@ -2,6 +2,7 @@ import * as React from "react";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
+import schedulePhoto from "../../assets/schedule-meeting.png";
 
 
 export default function ScheduleMeeting() {
@@ -19,6 +20,7 @@ export default function ScheduleMeeting() {
     <p className="text-[#1E1E1E] text-center font-[Spartan] font-[700] text-[2.25rem]">
     Choose a date and time where you have at least 30 minutes to discuss your credit goals.
     </p>
+    <img src={schedulePhoto} alt="" />
       <Container component="main" maxWidth="xs">
         <Box
           sx={{
