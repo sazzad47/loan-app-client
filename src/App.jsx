@@ -1,4 +1,3 @@
-
 import Home from "./pages/home";
 import { createContext } from "react";
 import { useState } from "react";
@@ -15,6 +14,7 @@ import Reset from "./components/modals/scoresignup/Reset";
 import PersonalAccount from "./pages/personalAccount";
 import PersonalDashboard from "./pages/personalDashboard";
 import AddUser from "./components/addUser/screens/Index";
+import GenerateLetter from "./components/generateLetter/screens/Index/Index";
 
 
 export const RecoveryContext = createContext();
@@ -51,6 +51,7 @@ function App() {
                   <Route index element={<AddUser />} />
                   <Route path="users" element={<UsersList />} />
                   <Route path="disputes" element={<DisputesPage />} />
+                  <Route path="generate-letter" element={<GenerateLetter />} />
                 </Route>
               </Route>
               <Route path="admin/login" element={<AdminLogin />} />

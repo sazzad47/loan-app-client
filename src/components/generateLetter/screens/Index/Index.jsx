@@ -2,9 +2,9 @@ import React from "react";
 import { HiconOutlineGroup31 } from "../../icons/HiconOutlineGroup31";
 import "./style.css";
 
-export const Index = () => {
+const GenerateLetter = () => {
   return (
-    <div className="index">
+    <div className="generate-letter">
       <div className="div">
         <div className="overlap">
           <div className="team-page-and-icon">
@@ -608,3 +608,5 @@ export const Index = () => {
     </div>
   );
 };
+
+export default GenerateLetter;

@@ -1,6 +1,7 @@
 import React from "react";
 import { HiconOutlineGroup32 } from "../../icons/HiconOutlineGroup32";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const AddUser = () => {
   return (
@@ -164,7 +165,7 @@ const AddUser = () => {
                   src="https://cdn.animaapp.com/projects/64da47c09e7225f2aa1a3abe/releases/6530d576c794a43bb130d28a/img/hicon---outline---add-category.svg"
                 />
               </div>
-              <div className="active-disputes">Active Disputes</div>
+              <Link to="/admin/disputes" className="active-disputes">Active Disputes</Link>
             </div>
             <div className="rectangle-7" />
             <div className="frame-11">
