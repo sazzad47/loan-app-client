@@ -45,9 +45,9 @@ const PersonalDashboard = () => {
             </div>
           </div>
         </div>
-        <div className="overlap-2">
+        {/* <div className="overlap-2">
           <div className="text-wrapper-2">Welcome to your dashboard</div>
-          {/* <div className="rectangle-2" /> */}
+          <div className="rectangle-2" />
           <div className="whole-illustration">
             <div className="overlap-3">
               <div className="custom-illustration">
@@ -85,7 +85,7 @@ const PersonalDashboard = () => {
               <div className="update-profile">Update Profile</div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="overlap-4">
           <div className="rectangle-7" />
           <div className="percentage-showing">

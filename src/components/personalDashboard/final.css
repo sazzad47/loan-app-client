@@ -1,8 +1,6 @@
 .profile {
   background: linear-gradient(180deg, rgb(235.88, 246.25, 255) 0%, rgb(223.14, 240.43, 255) 100%);
   border-radius: 49px;
-  height: 584px;
-  width: 443px;
 }
 
 .profile .img {
@@ -149,7 +147,6 @@
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
-  width: 161px;
 }
 
 .profile .fred-jonathan {
@@ -160,19 +157,12 @@
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
-  width: 283px;
-}
-
-.profile .group {
-  height: 64px;
-  width: 266px;
 }
 
 .profile .update-profile-wrapper {
   background-color: #ffffff;
   border-radius: 26px;
-  width: 264px;
-  padding: 20px 0;
+  padding: 20px 20px;
   text-align: center;
   color: #137fff;
   font-family: "Spartan", Helvetica;
@@ -181,4 +171,408 @@
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
+}
+
+.dispute-progress .dispute-progress-heading {
+  color: #0a0203;
+  font-family: "Spartan", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.dispute-progress .element-dispute-in-this {
+  color: transparent;
+  font-family: "Spartan", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.dispute-progress .element-dispute-in-this .span {
+  color: #1380FF;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.dispute-progress .element-dispute-in-this .month {
+  color: #A7A9AC;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.generated {
+  color: #231F20;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.generated-accounts {
+  color: #BDBFC0;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.generated-accounts span {
+  color: #1380FF;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.your-card-heading {
+  color: #0A0203;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.your-card-amount {
+  color: #161616;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.your-card-date {
+  color: #737373;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.your-card-credit-card {
+  width: 100%;
+  height: 14rem;
+  position: relative;
+}
+
+.your-card-credit-card .full {
+  background: linear-gradient(76deg, #1380FF 6.88%, rgba(223, 238, 255, 0.76) 98.83%);
+  height: 100%;
+  width: 100%;
+  border-radius: 2.25356rem;
+}
+.your-card-credit-card .master-card {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.your-card-credit-card .current-balance {
+  color: rgba(222, 245, 255, 0.90);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.94888rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.your-card-credit-card .amount {
+  color: #FFF;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.your-card-credit-card .card-number {
+  color: #FFF;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1.18606rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.your-card-credit-card .card-date {
+  color: #FFF;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1.18606rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.last-payment-details {
+  color: #333333;
+  font-family: "Spartan", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.amount-paid {
+  color: #D0D0D0;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.amount-paid-amount {
+  color: #333;
+  font-family: Spartan;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.invoice {
+  border-radius: 1.375rem;
+  background: #FFF;
+  box-shadow: 0px 7px 20px 0px rgba(51, 51, 51, 0.04);
+}
+
+.invoice .heading {
+  color: #EB6B7A;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.invoice .date {
+  color: #A3A3A3;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.invoice .to {
+  color: #333;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.invoice .download {
+  border-radius: 1.125rem;
+  background: #FC0;
+}
+
+.progress-transunion {
+  color: #1A1818;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.report-updated {
+  color: #333;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.report-updated-date {
+  color: rgba(51, 51, 51, 0.43);
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.dispute-in-progress {
+  color: #181717;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.letter-sent {
+  color: #000;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 113.5%; 
+  letter-spacing: 0.025rem;
+  text-transform: capitalize;
+}
+
+.letter-sent-date {
+  color: rgba(51, 51, 51, 0.37);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 113.5%; /* 0.70938rem */
+  letter-spacing: 0.025rem;
+  text-transform: capitalize;
+}
+
+.upload-doc {
+  border-radius: 3rem;
+  border: 6px solid #FFF;
+  background: linear-gradient(263deg, #EDF5FF 3.5%, rgba(237, 245, 255, 0.65) 3.5%, rgba(136, 168, 211, 0.09) 48.76%, rgba(248, 239, 255, 0.68) 96.11%);
+}
+
+.upload-doc-button {
+  color: #333;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.upload-doc-important {
+  color: #333;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.upload-doc-content {
+  color: #737373;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 161.5%; /* 1.615rem */
+}
+
+.publish-doc-button {
+  border-radius: 3rem;
+  background: #1380FF;
+  box-shadow: 0px 8px 7px 0px rgba(40, 137, 251, 0.40);
+  color: #FFF;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.my-score {
+  color: #686666;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
 }

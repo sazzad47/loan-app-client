@@ -18,7 +18,7 @@ import Page3 from "./components/personalDashboard/page3";
 import Page4 from "./components/personalDashboard/page4";
 import Page5 from "./components/personalDashboard/page5";
 import Page6 from "./components/personalDashboard/page6";
-import PersonalDashboard from "./components/personalDashboard/Testing";
+import PersonalDashboard from "./components/personalDashboard";
 
 
 export const RecoveryContext = createContext();
@@ -44,7 +44,6 @@ function App() {
       <RecoveryContext.Provider
         value={{ page, setPage, otp, setOTP, setEmaill, emaill }}
       >
-       
           <Routes>
             <Route path="/">
               <Route index element={elementToDisplay} />
