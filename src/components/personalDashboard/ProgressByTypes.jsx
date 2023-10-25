@@ -5,7 +5,7 @@ import {AiOutlineRise, AiOutlineFall} from "react-icons/ai";
 
 const ProgressByTypes = () => {
   return (
-    <div className='w-[70%] bg-white p-3'>
+    <div className='w-full bg-white p-3'>
         <div className='w-full grid grid-cols-3 gap-3'>
             <div className='flex flex-col gap-3 items-center'>
                 <h3 className='progress-transunion'> transUnion </h3>

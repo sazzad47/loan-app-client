@@ -9,7 +9,7 @@ import { PiDotsThreeVerticalLight } from "react-icons/pi";
 const DisputeInProgress = () => {
   return (
 
-    <div className="w-[70%]"> 
+    <div className="w-full"> 
      <h3 className="dispute-in-progress">Dispute in progress</h3>  
       <div className="w-full grid grid-cols-3 gap-5 bg-white p-3 mt-[1rem]">
         <div className="w-full flex flex-col gap-5">

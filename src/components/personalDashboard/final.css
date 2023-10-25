@@ -576,3 +576,381 @@
   line-height: normal;
   text-transform: capitalize;
 }
+
+.select-time {
+  border-radius: 1.9375rem;
+  background: rgba(238, 238, 238, 0.26);
+  color: #333;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 113.5%; /* 0.99313rem */
+  letter-spacing: 0.035rem;
+  text-transform: capitalize;
+}
+
+.score-label {
+  color: #333;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.0325rem;
+  text-transform: capitalize;
+}
+
+.credit-item-heading {
+  color: #000;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.credit-item-filter {
+  color: #1380FF;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  border-radius: 0.625rem;
+  background: #E2F0FF;
+}
+
+.credit-table {
+  width: 100%;
+}
+
+.credit-table th, .credit-table td {
+  padding: 20px 16px;
+  text-align: center;
+}
+
+.credit-table tr {
+  border-bottom: 1px solid #D8D8D8;
+}
+
+.item-table-heading {
+  color: #333;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.status-positive {
+  color: #38B000;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  border-left: 3px solid #50D910;
+  background: linear-gradient(90deg, rgba(81, 255, 0, 0.14) 0%, rgba(86, 255, 7, 0.02) 100%, rgba(86, 255, 7, 0.00) 100%);
+}
+
+.status-required {
+  color: #5083C1;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  border-left: 3px solid #5083C1;
+  background: linear-gradient(90deg, rgba(119, 177, 248, 0.15) 0%, rgba(142, 202, 230, 0.00) 100%);
+}
+
+.status-deleted {
+  color: #EB6B7A;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  border-left: 3px solid #CF202E;
+  background: linear-gradient(90deg, rgba(235, 107, 122, 0.12) 0%, rgba(235, 107, 122, 0.00) 100%);
+}
+
+.status-disputing {
+  color: #FC0;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  border-left: 3px solid #FC0;
+  background: linear-gradient(90deg, rgba(252, 218, 42, 0.17) 0%, rgba(252, 218, 42, 0.00) 100%);
+}
+ 
+ .status-negative {
+  color: #30D7C7;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  border-left: 3px solid #30D7C7;
+  background: linear-gradient(90deg, rgba(48, 215, 199, 0.16) 0%, rgba(48, 215, 199, 0.00) 100%);
+ }
+
+.item-value {
+  color: #333;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.credit-item-result {
+  color: #D3D3D3;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.credit-item-count {
+  color: #333;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.categories-heading {
+  color: #0A0203;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.categories-sub-heading {
+  color: #7B7A7A;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.installment {
+  border-radius: 3rem;
+  border: 6px solid #FFF;
+  background: #EDF5FF;
+}
+
+.installment-title {
+  color: #333;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.installment-name {
+  color: #737373;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.installment-amount {
+  color: #333;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.due-payment {
+  position: relative;
+  border-radius: 3rem;
+  border: 6px solid #FFF;
+  background: #FFF;
+
+}
+
+.accounts {
+  border-radius: 1.875rem;
+  background: #FFF;
+}
+
+.accounts-title {
+  color: #161616;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.accounts-text {
+  color: #A3A3A3;
+  text-align: start;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.profile-completeness {
+  color: #161616;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.existing-account {
+  color: #333;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.complete-account {
+  color: #EF9D00;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.account-name {
+  color: #000;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize; 
+}
+
+.account-email {
+  color: #BDBFC0;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.manage-account {
+  border-radius: 1.5625rem;
+  background: linear-gradient(180deg, #1380FF 0%, rgba(142, 202, 230, 0.63) 130.2%);
+  box-shadow: 0px 8px 11px 0px rgba(19, 128, 255, 0.26);
+  color: #FFF;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.view-all {
+  color: #231F20;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}

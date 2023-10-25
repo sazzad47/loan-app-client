@@ -5,10 +5,10 @@ import LowerLine from './icons/LowerLine'
 
 const PublishDoc = () => {
   return (
-    <div className='w-[70%] upload-doc flex'>
+    <div className='w-full upload-doc flex'>
         <div className='w-[25%] cursor-pointer m-5 p-5 rounded-[3rem] bg-white flex flex-col items-center'>
            <Upload/>
-           <h3 className='upload-doc-button'> upload doc </h3>
+           <h3 className='upload-doc-button whitespace-nowrap'> upload doc </h3>
         </div>
         <div>
 
