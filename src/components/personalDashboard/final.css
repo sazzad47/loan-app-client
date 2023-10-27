@@ -954,3 +954,70 @@
   line-height: normal;
   text-transform: capitalize;
 }
+
+.calendar-heading {
+  color: #686666;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.upcoming-task .select-time {
+  color: #1380FF;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.upcoming-task .time {
+  color: #333;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.upcoming-task .primary-event {
+  border-radius: 0.4375rem;
+  background: linear-gradient(90deg, rgba(136, 191, 255, 0.30) 5.68%, rgba(19, 128, 255, 0.26) 53.93%, rgba(38, 132, 255, 0.30) 96.51%);
+}
+
+.upcoming-task .schedule-meeting {
+  color: #FFF;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.upcoming-task .schedule-meeting-time {
+  color: #FFF;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}

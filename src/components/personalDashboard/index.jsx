@@ -12,6 +12,8 @@ import MyScore from './MyScore';
 import CreditItem from './CreditItem';
 import Categories from './Categories';
 import Accounts from './Accounts';
+import Calendar from './Calendar';
+import UpcomingTask from './UpcomingTask';
 
 const PersonalDashboardUI = () => {
   return (
@@ -37,6 +39,8 @@ const PersonalDashboardUI = () => {
         <div className='flex-1 flex flex-col gap-[3rem]'>
           <Categories/>
           <Accounts/>
+          <Calendar/>
+          <UpcomingTask/>
         </div>
       </div>
      
