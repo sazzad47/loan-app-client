@@ -41,7 +41,7 @@ const PersonalAccount = () => {
              </div>
 
               <p className="text-[#3E3D3D] font-[Spartan] font-[600] text-[0.8em]"> Business Credit </p>
-              <p className="m-0 bg-green-700 px-3 py-2 text-sm rounded-full text-white"> We are currently working on this module </p>
+              <p className="m-0 bg-green-700 px-3 py-2 text-sm rounded-full text-white"> Modules are currently being updated </p>
               </div>
             </div>
 
@@ -51,7 +51,7 @@ const PersonalAccount = () => {
               <img src={businessFunding} alt="business funding" />
             </div>
             <p className="text-[#333] font-[Spartan] font-[600] text-[0.8em]">  Business Funding </p>
-            <p className="m-0 bg-green-700 px-3 py-2 text-sm rounded-full text-white"> We are currently working on this module </p>
+            <p className="m-0 bg-green-700 px-3 py-2 text-sm rounded-full text-white"> Modules are currently being updated </p>
 
             </div>
             <div className="w-full flex flex-col justify-center items-center gap-4">
@@ -64,7 +64,7 @@ const PersonalAccount = () => {
             </div>
 
             <p className="text-[#333] font-[Spartan] font-[600] text-[0.8em]">  Digital Marketing </p>
-            <p className="m-0 bg-green-700 px-3 py-2 text-sm rounded-full text-white"> We are currently working on this module </p>
+            <p className="m-0 bg-green-700 px-3 py-2 text-sm rounded-full text-white"> Modules are currently being updated </p>
 
             </div>
 

@@ -47,6 +47,7 @@ function App() {
           <Routes>
             <Route path="/">
               <Route index element={elementToDisplay} />
+              <Route  path="/personal-account" element={<PersonalAccount/>} />
               <Route path="/personal-dashboard">
                   <Route index element={<PersonalDashboard />} />
                   <Route path="page-2" element={<Page2 />} />
