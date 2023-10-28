@@ -27,16 +27,16 @@ function App() {
   const [page, setPage] = useState("login");
   const [emaill, setEmaill] = useState();
   const [otp, setOTP] = useState();
-  // let elementToDisplay;
-  // if (page === "otp") {
-  //   elementToDisplay = <OTPInput />;
-  // } else if (page === "reset") {
-  //   elementToDisplay = <Reset />;
-  // } else {
-  //   elementToDisplay = <Home />;
-  //   // elementToDisplay = <Home3 />;
-  //   console.log("first");
-  // }
+  let elementToDisplay;
+  if (page === "otp") {
+    elementToDisplay = <OTPInput />;
+  } else if (page === "reset") {
+    elementToDisplay = <Reset />;
+  } else {
+    elementToDisplay = <Home />;
+    // elementToDisplay = <Home3 />;
+    console.log("first");
+  }
 
   console.log(emaill);
   return (
@@ -46,7 +46,7 @@ function App() {
       >
           <Routes>
             <Route path="/">
-              <Route index element={<PersonalAccount />} />
+              <Route index element={elementToDisplay} />
               <Route path="/personal-dashboard">
                   <Route index element={<PersonalDashboard />} />
                   <Route path="page-2" element={<Page2 />} />

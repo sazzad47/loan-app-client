@@ -13,11 +13,23 @@ import PositiveOrFreeze from "../../components/steps/PositiveOrFreeze";
 import { Link } from "react-router-dom";
 
 const PersonalAccount = () => {
+
+  const theme = useTheme();
+  const [activeStep, setActiveStep] = React.useState(0);
+
+  const handleNext = () => {
+    setActiveStep((prevActiveStep) => prevActiveStep + 1);
+  };
+
+  const handleBack = () => {
+    setActiveStep((prevActiveStep) => prevActiveStep - 1);
+  };
+
   const steps = [
     {
       heading: "Create your TGIScaleme account now !",
       label: "Enter sign up details",
-      component: <SignUp />,
+      component: <SignUp handleNext={handleNext} />,
     },
     {
       heading: "Get credit report",
@@ -46,18 +58,9 @@ const PersonalAccount = () => {
       component: <PositiveOrFreeze />,
     },
   ];
-  const theme = useTheme();
-  const [activeStep, setActiveStep] = React.useState(0);
+ 
   const maxSteps = steps.length;
-
-  const handleNext = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep + 1);
-  };
-
-  const handleBack = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep - 1);
-  };
-
+  
   return (
     <div className="min-h-screen w-full p-[2rem] sm:p-[3rem] md:p-[5rem]">
       <div className="p-[1rem] sm:p-[2rem] items-center w-full flex flex-col gap-[5px] justify-center bg-[#f8f8f8] rounded-[18px]">
