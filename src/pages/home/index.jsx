@@ -11,7 +11,7 @@ const PersonalAccount = () => {
     <div className="min-h-screen w-full p-[2rem] sm:p-[3rem] md:p-[5rem]">
       <div style={{border: "3px solid #2684FF"}} className="bg-[#F7F9F8] w-full h-full rounded-[1.9375rem] py-5">
         <div className="flex flex-col">
-          <p className="font-[Spartan] text-center text-[2em] font-[700]"> What service are you interested in? </p>
+          <p className="font-[Spartan] text-center text-[2em] font-[700]"> Welcome TGIscalme Credit Business Services </p>
           <p className="text-center font-[Spartan] text-[#A3A3A3] font-[500] text-[0.9em]"> Choose Account Type </p>
          
           <div className="grid grid-cols-2 gap-[5rem] mt-5 px-[10rem]">

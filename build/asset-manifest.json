@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6bbc8af4.css",
+    "main.js": "/static/js/main.5417a0b8.js",
+    "static/media/user-profile.jpg": "/static/media/user-profile.42ab3f3a8b664edd3af5.jpg",
+    "static/media/account-avatar.svg": "/static/media/account-avatar.39f1f447253da1f5a8c1071ea6272b72.svg",
+    "static/media/defaultUser.png": "/static/media/defaultUser.89ef773ea324ee6feefd.png",
+    "static/media/digital-marketing.png": "/static/media/digital-marketing.552657e253784bc6dfb7.png",
+    "static/media/schedule-meeting.png": "/static/media/schedule-meeting.f47671407993a9f38a16.png",
+    "static/media/upload-doc.jpg": "/static/media/upload-doc.a1bd2755a4937e889814.jpg",
+    "static/media/business-funding.png": "/static/media/business-funding.4c47ee46ecd146f5f6f0.png",
+    "static/media/TGIScaleme.png": "/static/media/TGIScaleme.50b123eca2c1e013ee73.png",
+    "static/media/Ellipse93.png": "/static/media/Ellipse93.7ad7c7e8b443a55b2136.png",
+    "static/media/due-payment.svg": "/static/media/due-payment.c49a472b1e02f0c1432a6ef7369b2991.svg",
+    "static/media/installment.svg": "/static/media/installment.826101b69539e71a55440e1d97bafca5.svg",
+    "index.html": "/index.html",
+    "static/media/mark.svg": "/static/media/mark.9afbf1ecae6e4f337f1360e62c0267bb.svg",
+    "main.6bbc8af4.css.map": "/static/css/main.6bbc8af4.css.map",
+    "main.5417a0b8.js.map": "/static/js/main.5417a0b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bbc8af4.css",
+    "static/js/main.5417a0b8.js"
+  ]
+}
