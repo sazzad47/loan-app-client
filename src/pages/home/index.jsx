@@ -67,9 +67,7 @@ const PersonalAccount = () => {
             <p className="m-0 bg-green-700 px-3 py-2 text-sm rounded-full text-white"> Modules are currently being updated </p>
 
             </div>
-
            
-
           </div>
 
           <p className="capitalize text-[#88A8D3] font-[600] text-[1.3em] text-center mt-[3rem]"> personal accounts cannot be used for business purposes </p>

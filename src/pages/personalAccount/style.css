@@ -168,3 +168,14 @@ padding: 2rem 0;
   background-repeat: no-repeat;
   background-position: left top;
 }
+
+.forgot-pass {
+  color: #333;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Spartan;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

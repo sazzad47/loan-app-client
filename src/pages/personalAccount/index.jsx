@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import Svgs from "./Svgs";
 import DoneIcon from "@mui/icons-material/Done";
@@ -11,11 +11,12 @@ import SelectPackage from "../../components/steps/SelectPackage";
 import UploadDocuments from "../../components/steps/UploadDocuments";
 import PositiveOrFreeze from "../../components/steps/PositiveOrFreeze";
 import { Link } from "react-router-dom";
+import SignIn from "../../components/steps/SignIn";
 
 const PersonalAccount = () => {
-
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
+  const [signInPage, setSignInPage] = useState(false);
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
@@ -27,9 +28,9 @@ const PersonalAccount = () => {
 
   const steps = [
     {
-      heading: "Create your TGIScaleme account now !",
-      label: "Enter sign up details",
-      component: <SignUp handleNext={handleNext} />,
+      heading: signInPage? "Login to your TGIScaleme account" : "Create your TGIScaleme account now !",
+      label: signInPage? "Login" : "Enter sign up details",
+      component: signInPage? <SignIn setSignInPage={setSignInPage} handleNext={handleNext} /> : <SignUp setSignInPage={setSignInPage} handleNext={handleNext} />,
     },
     {
       heading: "Get credit report",
@@ -58,21 +59,26 @@ const PersonalAccount = () => {
       component: <PositiveOrFreeze />,
     },
   ];
- 
+
   const maxSteps = steps.length;
-  
+
+
   return (
     <div className="min-h-screen w-full p-[2rem] sm:p-[3rem] md:p-[5rem]">
-      <div className="p-[1rem] sm:p-[2rem] items-center w-full flex flex-col gap-[5px] justify-center bg-[#f8f8f8] rounded-[18px]">
-        <p className="font-[Spartan] text-[#333] text-[25px] sm:text-[30px] md:text-[55px] font-[400] tracking-normal leading-normal text-center">
-          {steps[activeStep].heading}
-        </p>
-        <p className="text-transparent font-[roboto] text-[20px] sm:text-[25px] font-[400] tracking-normal leading-normal relative text-center">
-          <span className="text-[#686565]">Please Fill out all necessary </span>
-          <span className="text-[#137fff] font-[700]">steps</span>
-          <span className="text-[#686565]"> to get started</span>
-        </p>
-      </div>
+      {activeStep !== 1 && (
+        <div className="p-[1rem] sm:p-[2rem] items-center w-full flex flex-col gap-[5px] justify-center bg-[#f8f8f8] rounded-[18px]">
+          <p className="font-[Spartan] text-[#333] text-[25px] sm:text-[30px] md:text-[55px] font-[400] tracking-normal leading-normal text-center">
+            {steps[activeStep].heading}
+          </p>
+          <p className="text-transparent font-[roboto] text-[20px] sm:text-[25px] font-[400] tracking-normal leading-normal relative text-center">
+            <span className="text-[#686565]">
+              Please Fill out all necessary{" "}
+            </span>
+            <span className="text-[#137fff] font-[700]">steps</span>
+            <span className="text-[#686565]"> to get started</span>
+          </p>
+        </div>
+      )}
 
       <div className="w-full h-[100px] sm:h-[140px] md:h-[200px] relative mt-3 sm:mt-5">
         <Svgs />
