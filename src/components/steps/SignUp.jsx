@@ -41,6 +41,20 @@ export default function SignUp({ setSignInPage, handleNext }) {
       if (!formData[key]) {
         formErrors[key] = "This field is required";
       }
+
+      if (formData["password"].length < 6) {
+        formErrors["password"] =
+          "Password should contain at least 6 characters";
+      }
+
+      if (formData["confirm_password"] !== formData["password"]) {
+        formErrors["confirm_password"] = "Confirm password did not match";
+      }
+
+      if (formData["agreeToTerms"] === false) {
+        formErrors["agreeToTerms"] =
+          "Please accept our terms and conditions to continue";
+      }
     }
 
     if (Object.keys(formErrors).length > 0) {
@@ -128,7 +142,6 @@ export default function SignUp({ setSignInPage, handleNext }) {
             label="Email Address"
             name="email"
             autoComplete="email"
-            autoFocus
             value={formData.email}
             onChange={handleChange}
             error={Boolean(errors.email)}
@@ -142,7 +155,6 @@ export default function SignUp({ setSignInPage, handleNext }) {
               label="Social security number"
               name="ss_number"
               autoComplete="ss_number"
-              autoFocus
               value={formData.ss_number}
               onChange={handleChange}
               error={Boolean(errors.ss_number)}
@@ -174,7 +186,6 @@ export default function SignUp({ setSignInPage, handleNext }) {
               label="State"
               name="state"
               autoComplete="state"
-              autoFocus
               value={formData.state}
               onChange={handleChange}
               error={Boolean(errors.state)}
@@ -188,7 +199,6 @@ export default function SignUp({ setSignInPage, handleNext }) {
               label="City"
               name="city"
               autoComplete="city"
-              autoFocus
               value={formData.city}
               onChange={handleChange}
               error={Boolean(errors.city)}
@@ -203,7 +213,6 @@ export default function SignUp({ setSignInPage, handleNext }) {
               label="Zip code"
               name="zip_code"
               autoComplete="zip_code"
-              autoFocus
               value={formData.zip_code}
               onChange={handleChange}
               error={Boolean(errors.zip_code)}
@@ -218,7 +227,6 @@ export default function SignUp({ setSignInPage, handleNext }) {
               type="number"
               name="phone"
               autoComplete="phone"
-              autoFocus
               value={formData.phone}
               onChange={handleChange}
               error={Boolean(errors.phone)}
@@ -251,6 +259,15 @@ export default function SignUp({ setSignInPage, handleNext }) {
             error={Boolean(errors.confirm_password)}
             helperText={errors.confirm_password}
           />
+
+          {Boolean(errors.agreeToTerms) && (
+            <div
+              className="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400"
+              role="alert"
+            >
+              <span className="font-medium">{errors.agreeToTerms}</span>
+            </div>
+          )}
 
           <Grid className="w-full flex justify-center">
             <FormControlLabel

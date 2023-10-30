@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import Svgs from "./Svgs";
 import DoneIcon from "@mui/icons-material/Done";
-import { useTheme } from "@mui/material/styles";
-import SwipeableViews from "react-swipeable-views";
 import SignUp from "../../components/steps/SignUp";
 import PullReport from "../../components/steps/PullReport";
 import ScheduleMeeting from "../../components/steps/ScheduleMeeting";
@@ -14,16 +12,28 @@ import { Link } from "react-router-dom";
 import SignIn from "../../components/steps/SignIn";
 
 const PersonalAccount = () => {
-  const theme = useTheme();
-  const [activeStep, setActiveStep] = React.useState(0);
+ 
+  const [activeStep, setActiveStep] = React.useState(()=> {
+    return JSON.parse(localStorage.getItem("activeStep")) || 0
+  });
   const [signInPage, setSignInPage] = useState(false);
+
+  useEffect(() => {
+    console.log("Saving active step:", activeStep); 
+    localStorage.setItem("activeStep", activeStep);
+  }, [activeStep]);
+  
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
+    // Scroll to the top of the page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleBack = () => {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
+    // Scroll to the top of the page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const steps = [
@@ -65,7 +75,7 @@ const PersonalAccount = () => {
 
   return (
     <div className="min-h-screen w-full p-[2rem] sm:p-[3rem] md:p-[5rem]">
-      {activeStep !== 1 && (
+   
         <div className="p-[1rem] sm:p-[2rem] items-center w-full flex flex-col gap-[5px] justify-center bg-[#f8f8f8] rounded-[18px]">
           <p className="font-[Spartan] text-[#333] text-[25px] sm:text-[30px] md:text-[55px] font-[400] tracking-normal leading-normal text-center">
             {steps[activeStep].heading}
@@ -78,7 +88,6 @@ const PersonalAccount = () => {
             <span className="text-[#686565]"> to get started</span>
           </p>
         </div>
-      )}
 
       <div className="w-full h-[100px] sm:h-[140px] md:h-[200px] relative mt-3 sm:mt-5">
         <Svgs />
@@ -123,17 +132,7 @@ const PersonalAccount = () => {
       </div>
 
       <div className="w-full justify-center mt-[2rem]">
-        <SwipeableViews
-          axis={theme.direction === "rtl" ? "x-reverse" : "x"}
-          index={activeStep}
-          animateHeight
-        >
-          {steps.map((step, index) => (
-            <div key={step.label}>
-              {Math.abs(activeStep - index) <= 2 ? step.component : null}
-            </div>
-          ))}
-        </SwipeableViews>
+      {steps[activeStep].component}
       </div>
 
       <div className="w-full flex justify-center mt-[2rem]">
